@@ -1,0 +1,22 @@
+[
+  {
+    "id": "jerky_vendor",
+    "type": "BOOK",
+    "name": "Tales of a Junktown Jerky Vendor",
+    "name_plural": "Tales of a Junktown Jerky Vendor",
+    "//": "Biz majors can afford it.  Surely you're gonna make US$60K/yr out of school, and twice that in five years?",
+    "description": "A book of stories from a fictional apocalyptic town. In between the anecdotes are some actually good tips on running a business, and some recipes for 'iguana'...",
+    "weight": 1587,
+    "volume": 7,
+    "price": 9800,
+    "bashing": 5,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "blue",
+    "skill": "barter",
+    "max_level": 6,
+    "intelligence": 9,
+    "time": 30,
+    "fun": 10
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "widowmaker",
+    "copy-from": "shotgun_s",
+    "type": "GUN",
+    "name": "Winchester Widowmaker",
+    "description": "A Winchester Widowmaker double-barreled 12 gauge shotgun. A short barrel, with mahogany grip",
+    "clip_size": 2,
+    "modes": [
+      [ "DEFAULT", "single", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+    "relative": {
+      "weight": 400,
+      "volume": 1,
+      "price": 6000
+    }
+  }
+]

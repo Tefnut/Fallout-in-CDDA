@@ -1,0 +1,154 @@
+[
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_fallout_common",
+    "//": "Pistol ammo commonly owned by citizens and found in many locations.",
+    "items": [
+    [ "10mm", 100 ],
+	[ "10mm_incendiary", 100 ],
+	[ "10mmhp", 100 ],
+	[ "10mmap", 100 ],
+    [ "10mmjhp", 100 ],
+	[ "9mm", 100 ],
+    [ "9mmfmj", 100 ],
+	[ "44fmj", 15 ],
+    [ "44magnum", 35 ],
+	[ "9mmP", 30 ],
+    [ "9mmP2", 20 ]
+	
+    ]
+	},
+	
+	  {
+    "type": "item_group",
+    "id": "guns_rifle_fallout_common",
+    "//": "rifles common to civilian use.",
+    "items": [
+      [ "redryder", 100 ],
+	  [ "colt_rangemaster", 100 ]
+    ]
+  },
+  
+  	  {
+    "type": "item_group",
+    "id": "guns_rifle_fallout_rare",
+    "//": "rare and exotic rifles, alien to civilian use.",
+    "items": [
+      [ "redryderle", 100 ]
+    ]
+  },
+  {
+      "type": "item_group",
+    "id": "guns_pistol_fallout_common",
+    "//": "Pistols commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "colt6250", 100 ],
+	  [ "mauser_9mm", 75 ],
+	  [ "deagle_44", 50 ]
+    ]
+  },
+  
+    {
+      "type": "item_group",
+    "id": "guns_shotgun_fallout_common",
+    "//": "Shotguns commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "widowmaker", 100 ]
+    ]
+  },
+  
+    {
+      "type": "item_group",
+    "id": "guns_smg_fallout_common",
+    "//": "SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "10mmsmg", 100 ]
+    ]
+  },
+  
+  	  {
+    "type": "item_group",
+    "id": "melee_fallout_common",
+    "//": "melee weapons commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "spear_fallout_replica", 100 ],
+	        [ "vault_knife", 100 ],
+	        [ "spear_fallout", 50 ]
+    ]
+  },
+  
+    	  {
+    "type": "item_group",
+    "id": "armor_fallout_common",
+    "//": "armor and clothing commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "jumpsuit_vault", 100 ],
+	        [ "jumpsuit_vault_13", 50 ],
+	        [ "jumpsuit_vault_13_armored", 25 ]
+    ]
+  },
+  
+    {
+    "type" : "item_group",
+    "id" : "mags_pistol_fallout_common",
+    "//" : "Common pistol mags.",
+    "items": [
+      ["colt6250mag", 100],
+	  ["deaglemag", 100]
+
+    ]
+  },
+    
+    {
+    "type" : "item_group",
+    "id" : "mags_smg_fallout_common",
+    "//" : "Common pistol mags.",
+    "items": [
+      ["10mmsmgmag", 100]
+
+    ]
+  },
+  
+      {
+    "type" : "item_group",
+    "id" : "mags_rifle_fallout_common",
+    "//" : "Common rifle magazines.",
+    "items": [
+      ["rangemastermag", 100],
+      ["rangemastermag2", 50]
+
+    ]
+  },
+  
+        {
+    "type" : "item_group",
+    "id" : "books_fallout_common",
+    "//" : "Common books about the Wasteland.",
+    "items": [
+      ["jerky_vendor", 100]
+
+    ]
+  },
+  
+    {
+    "id": "drinks_nuka",
+    "type" : "item_group",
+    "//" : "nuka cola! and sunset sasparilla... but mostly Nuka Cola!",
+    "items": [
+      [ "cola_nuka", 150 ],
+      [ "cola_newka", 30 ],
+      [ "cola_nuka_quantum", 20 ]
+    ]
+  },
+  
+      {
+    "id": "food_iguana",
+    "type" : "item_group",
+    "//" : "Bob's Iguana Bits!",
+    "items": [
+      [ "stick_iguana", 50 ],
+      [ "stick_iguana_premium", 45 ],
+      [ "stick_iguana_premiumh", 5 ]
+    ]
+  }
+]

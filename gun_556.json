@@ -1,0 +1,26 @@
+[
+   {
+    "id": "colt_rangemaster",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+    "name": "Colt Rangemaster",
+    "description": "A Colt Rangemaster semi-automatic rifle, in .223 caliber. Single-shot only. It's popular for hunting vermin.",
+    "weight": 2800,
+    "volume": 8,
+    "price": 92100,
+    "to_hit": 1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "223",
+    "ranged_damage": 2,
+    "dispersion": 100,
+    "durability": 8,
+    "barrel_length": 2,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "magazines": [
+      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag" ] ]
+    ]
+  }
+]

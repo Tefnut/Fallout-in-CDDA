@@ -1,0 +1,14 @@
+[
+
+  {
+    "name": "GROUP_EGG_MANTIS",
+    "type": "monstergroup",
+    "default": "mon_giant_mantis_nymph"
+  },
+  
+    {
+    "name": "GROUP_EGG_RADSCORPION",
+    "type": "monstergroup",
+    "default": "mon_radscorpion_small"
+  }
+]

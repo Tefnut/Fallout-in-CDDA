@@ -1,0 +1,85 @@
+[
+  {
+    "type": "item_group",
+    "id": "ammo_pistol_fallout_common",
+    "//": "Pistol ammo commonly owned by citizens and found in many locations.",
+    "items": [
+    [ "10mm", 100 ],
+	[ "10mm_incendiary", 100 ],
+	[ "10mmhp", 100 ],
+	[ "10mmap", 100 ],
+    [ "10mmjhp", 100 ]
+    ]
+	},
+	
+	  {
+    "type": "item_group",
+    "id": "guns_rifle_fallout_common",
+    "//": "rifles common to civilian use.",
+    "items": [
+      [ "redryder", 100 ]
+    ]
+  },
+  
+  	  {
+    "type": "item_group",
+    "id": "guns_rifle_fallout_rare",
+    "//": "rare and exotic rifles, alien to civilian use.",
+    "items": [
+      [ "redryderle", 100 ]
+    ]
+  },
+  {
+      "type": "item_group",
+    "id": "guns_pistol_fallout_common",
+    "//": "Pistols and SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "colt6250", 100 ],
+	        [ "10mmsmg", 50 ]
+    ]
+  },
+  
+  	  {
+    "type": "item_group",
+    "id": "melee_fallout_common",
+    "//": "melee weapons commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "spear_fallout_replica", 100 ],
+	        [ "vault_knife", 100 ],
+	        [ "spear_fallout", 50 ]
+    ]
+  },
+  
+    	  {
+    "type": "item_group",
+    "id": "armor_fallout_common",
+    "//": "armor and clothing commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "jumpsuit_vault", 100 ],
+	        [ "jumpsuit_vault_13", 50 ],
+	        [ "jumpsuit_vault_13_armored", 25 ]
+    ]
+  },
+  
+    {
+    "type" : "item_group",
+    "id" : "mags_pistol_fallout_common",
+    "//" : "Common pistol.",
+    "items": [
+      ["colt6250mag", 100],
+      ["10mmsmgmag", 50]
+
+    ]
+  },
+  
+    {
+    "id": "drinks_nuka",
+    "type" : "item_group",
+    "//" : "nuka cola! and sunset sasparilla... but mostly Nuka Cola!",
+    "items": [
+      [ "cola_nuka", 150 ],
+      [ "cola_newka", 30 ],
+      [ "cola_nuka_quantum", 20 ]
+    ]
+  }
+]

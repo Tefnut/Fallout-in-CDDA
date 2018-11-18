@@ -1,0 +1,26 @@
+[
+ {
+    "type":"monstergroup",
+    "name" : "GROUP_FOREST",
+    "default" : "mon_null",
+    "monsters" : [
+      { "monster" : "mon_radscorpion_small", "freq" : 1, "cost_multiplier" : 10, "pack_size" : [1,5],              "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
+      { "monster" : "mon_radscorpion_small", "freq" : 3, "cost_multiplier" : 10, "pack_size" : [1,5],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
+	  { "monster" : "mon_radscorpion", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,5],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
+      { "monster" : "mon_radscorpion", "freq" : 6, "cost_multiplier" : 10, "pack_size" : [1,5],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN"] },
+	  { "monster" : "mon_giant_mantis_nymph", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,7],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
+	  { "monster" : "mon_giant_mantis", "freq" : 6, "cost_multiplier" : 10, "pack_size" : [1,7],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN"] },
+	  { "monster" : "mon_cave_rat", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_cave_rat", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_rat_piglet", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_rat_piglet", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+      { "monster" : "mon_rat_pig", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_rat_pig", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+      { "monster" : "mon_rat_mole_young", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_rat_mole_young", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+      { "monster" : "mon_rat_mole_lesser", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["SPRING", "SUMMER", "AUTUMN", "WINTER"] },
+	  { "monster" : "mon_rat_mole_lesser", "freq" : 2, "cost_multiplier" : 10, "pack_size" : [1,10],                  "conditions" : ["NIGHT", "SPRING", "SUMMER", "AUTUMN", "WINTER"] }
+            
+    ]
+  }
+]

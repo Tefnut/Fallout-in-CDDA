@@ -1,0 +1,13 @@
+[
+ {
+		"type" : "overmap_terrain",
+		"id" : "s_gunrunner_store",
+		"name" : "gun runner store",
+		"rotate" : true,
+		"sym" : 48,
+		"color" : "i_white",
+		"see_cost" : 5,
+		"mondensity" : 2,
+		"sidewalk" : true
+	}
+]

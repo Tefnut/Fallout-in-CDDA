@@ -54,5 +54,22 @@
     "color": "light_gray",
     "qualities": [ [ "CUT", 5 ], [ "CUT_FINE", 5 ], [ "BUTCHER", 20 ] ],
     "flags": [ "STAB", "SHEATH_KNIFE", "DURABLE_MELEE"]
+  },
+  
+    {
+    "type": "GENERIC",
+    "id": "super_sledge",
+    "name": "super sledge",
+    "description": "A Super Sledgehammer, manufactured by the Gun Runners, using the finest weapon technology available. Includes a kinetic energy storage device to increase damage and knockback.",
+    "weight": 4500,
+    "color": "green",
+    "symbol": "/",
+    "material": [ "wood", "steel" ],
+    "flags": "NONCONDUCTIVE",
+    "techniques": [ "WBLOCK_1", "BRUTAL", "WIDE", "SWEEP" ],
+    "volume": 10,
+    "bashing": 180,
+    "price": 120000,
+    "qualities": [ [ "HAMMER", 1 ] ]
   }
 ]

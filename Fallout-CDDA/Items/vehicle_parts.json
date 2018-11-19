@@ -1,0 +1,34 @@
+[
+  {
+        "type": "GENERIC",
+        "id": "minifridge_atomic",
+        "name": "atomic minifridge",
+        "description": "A very small fridge for keeping food cool.  Provides some insulation from outside weather. Powered by an internal reactor, it doesnt need to be connected to vehicle power to work.",
+        "weight": 31752,
+        "to_hit": -8,
+        "color": "light_blue",
+        "symbol": "]",
+        "material": "steel",
+        "volume": 20,
+        "bashing": 8,
+        "category" : "veh_parts",
+        "price": 120000,
+        "insulation": 2
+    },
+    {
+        "type": "GENERIC",
+        "id": "minifreezer_atomic",
+        "name": "atomic minifreezer",
+        "description": "Compact version of a chest freezer, designed as a mobile solution for freezing food.  Provides insulation from the elements. Doesnt require power on account of its own internal power.",
+        "weight": 31752,
+        "to_hit": -8,
+        "color": "light_blue",
+        "symbol": "]",
+        "material": "steel",
+        "volume": 20,
+        "bashing": 8,
+        "category" : "veh_parts",
+        "price": 140000,
+        "insulation": 4
+    }
+]

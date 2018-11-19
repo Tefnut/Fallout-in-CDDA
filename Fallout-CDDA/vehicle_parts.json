@@ -1,0 +1,49 @@
+[
+  {
+    "type": "vehicle_part",
+    "id": "minifridge_atomic",
+    "name": "atomic minifridge",
+    "symbol": "H",
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "light_blue",
+    "damage_modifier": 80,
+    "durability": 100,
+    "description": "A small fridge.  When turned on, it will cool the food inside, extended the time until the food spoils It is powered by an internal nuclear reactor and thus will not drain your vehicles power.",
+    "//": "Use average consumption, not the max on the appliance rating plate. 30W ~ 260kWh per annum",
+    "size": 300,
+    "item": "minifridge_atomic",
+    "difficulty": 3,
+    "location": "center",
+    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "TOOL_WRENCH"],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 8, 13 ] },
+      { "item": "steel_chunk", "count": [ 8, 13 ] },
+      { "item": "scrap", "count": [ 8, 13 ] },
+      { "item": "hose", "prob": 50 }
+    ]
+  },
+  {
+    "type": "vehicle_part",
+    "id": "minifreezer_atomic",
+    "name": "atomic minifreezer",
+    "symbol": "H",
+    "color": "light_blue",
+    "broken_symbol": "#",
+    "broken_color": "blue",
+    "looks_like": "minifridge",
+    "damage_modifier": 80,
+    "durability": 100,
+    "size": 300,
+    "item": "minifreezer_atomic",
+    "difficulty": 3,
+    "location": "center",
+    "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "TOOL_WRENCH" ],
+    "breaks_into": [
+      { "item": "steel_lump", "count": [ 8, 13 ] },
+      { "item": "steel_chunk", "count": [ 8, 13 ] },
+      { "item": "scrap", "count": [ 8, 13 ] },
+      { "item": "hose", "prob": 50 }
+    ]
+  }
+]

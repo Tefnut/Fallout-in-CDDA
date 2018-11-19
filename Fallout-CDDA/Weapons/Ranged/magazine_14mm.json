@@ -1,0 +1,18 @@
+[
+  {
+    "id": "14mmpistolmag",
+    "type": "MAGAZINE",
+    "name": "Sig Sauer magazine",
+    "description": "A solid black magazine chambered in 14mm.",
+    "weight": 140,
+    "volume": 1,
+    "price": 10000,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "black",
+    "ammo_type": "14mm",
+    "capacity": 7,
+    "reliability": 7,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]

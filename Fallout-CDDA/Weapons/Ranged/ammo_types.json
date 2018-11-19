@@ -4,5 +4,19 @@
     "name": "10mm Auto",
     "default": "10mm",
     "type": "ammunition_type"
+  },
+  
+    {
+    "id": "5mm",
+    "name": "5mm",
+    "default": "5mm",
+    "type": "ammunition_type"
+  },
+  
+    {
+    "id": "14mm",
+    "name": "14mm Sig Sauer",
+    "default": "14mm",
+    "type": "ammunition_type"
   }
 ]

@@ -15,5 +15,26 @@
       "volume": 1,
       "price": 6000
     }
+  },
+  
+    {
+    "id": "citykiller",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+    "name": "Winchester City-Killer",
+    "name_plural": "Winchester City-Killer",
+    "description": "A Winchester City-Killer 12 gauge combat shotgun, bullpup variant. It has the optional DesertWarfare environmental sealant modification for extra reliability.",
+    "weight": 3820,
+    "volume": 10,
+    "price": 169900,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "ranged_damage": 4,
+    "dispersion": 345,
+    "durability": 9,
+	"burst": 3,
+    "magazines": [ [ "shot", [ "citykillermag"] ] ],
+    "flags": [ "NEVER_JAMS" ]
   }
 ]

@@ -14,7 +14,25 @@
 	[ "44fmj", 15 ],
     [ "44magnum", 35 ],
 	[ "9mmP", 30 ],
-    [ "9mmP2", 20 ]
+    [ "9mmP2", 20 ],
+	[ "14mm", 20 ]
+	
+    ]
+	},
+	
+	
+	  {
+    "type": "item_group",
+    "id": "ammo_rifle_fallout_common",
+    "//": "Pistol ammo commonly owned by citizens and found in many locations.",
+    "items": [
+    [ "bb", 100 ],
+	[ "223", 100 ],
+	[ "556", 75 ],
+	[ "5mm", 50 ],
+    [ "5mmjhp", 25 ],
+	[ "5mmap", 25 ],
+	[ "5mmincendiary", 5 ]
 	
     ]
 	},
@@ -25,7 +43,8 @@
     "//": "rifles common to civilian use.",
     "items": [
       [ "redryder", 100 ],
-	  [ "colt_rangemaster", 100 ]
+	  [ "colt_rangemaster", 100 ],
+	  [ "dks501", 50 ]
     ]
   },
   
@@ -34,7 +53,9 @@
     "id": "guns_rifle_fallout_rare",
     "//": "rare and exotic rifles, alien to civilian use.",
     "items": [
-      [ "redryderle", 100 ]
+      [ "redryderle", 100 ],
+	  [ "dks501", 75 ],
+	  [ "ak112", 10 ]
     ]
   },
   {
@@ -44,7 +65,20 @@
     "items": [
       [ "colt6250", 100 ],
 	  [ "mauser_9mm", 75 ],
-	  [ "deagle_44", 50 ]
+	  [ "deagle_44", 50 ],
+	  [ "thatgun", 25 ],
+	  [ "14mmpistol", 1 ]
+    ]
+  },
+  
+    {
+      "type": "item_group",
+    "id": "guns_pistol_fallout_rare",
+    "//": "Pistols rarely used by anyone outside of the military, either due to their expensive nature or regulations..",
+    "items": [
+	  [ "deagle_44", 100 ],
+	  [ "thatgun", 75],
+	  [ "14mmpistol", 50 ]
     ]
   },
   
@@ -53,7 +87,17 @@
     "id": "guns_shotgun_fallout_common",
     "//": "Shotguns commonly owned by citizens and found in many locations.",
     "items": [
-      [ "widowmaker", 100 ]
+      [ "widowmaker", 100 ],
+	  [ "citykiller", 10 ]
+    ]
+  },
+  
+      {
+      "type": "item_group",
+    "id": "guns_shotgun_fallout_rare",
+    "//": "Shotguns used by police and military forces.",
+    "items": [
+	  [ "citykiller", 100 ]
     ]
   },
   
@@ -73,9 +117,21 @@
     "items": [
       [ "spear_fallout_replica", 100 ],
 	        [ "vault_knife", 100 ],
-	        [ "spear_fallout", 50 ]
+	        [ "spear_fallout", 50 ],
+			[ "super_sledge", 5 ]
     ]
   },
+  
+    	  {
+    "type": "item_group",
+    "id": "melee_fallout_rare",
+    "//": "melee weapons that rarely saw use pre-cataclysm, either due to being too brutal for military use, or just being impractical.",
+    "items": [
+	        [ "spear_fallout", 100 ],
+			[ "super_sledge", 50 ]
+    ]
+  },
+  
   
     	  {
     "type": "item_group",
@@ -84,7 +140,8 @@
     "items": [
       [ "jumpsuit_vault", 100 ],
 	        [ "jumpsuit_vault_13", 50 ],
-	        [ "jumpsuit_vault_13_armored", 25 ]
+	        [ "jumpsuit_vault_13_armored", 25 ],
+			[ "armor_wasteplate", 5 ]
     ]
   },
   
@@ -94,7 +151,19 @@
     "//" : "Common pistol mags.",
     "items": [
       ["colt6250mag", 100],
-	  ["deaglemag", 100]
+	  ["deaglemag", 50],
+	  ["14mmpistolmag", 10]
+
+    ]
+  },
+  
+      {
+    "type" : "item_group",
+    "id" : "mags_pistol_fallout_rare",
+    "//" : "Rare and exotic pistol mags.",
+    "items": [
+	  ["deaglemag", 100],
+	  ["14mmpistolmag", 50]
 
     ]
   },
@@ -102,9 +171,19 @@
     {
     "type" : "item_group",
     "id" : "mags_smg_fallout_common",
-    "//" : "Common pistol mags.",
+    "//" : "Common smg mags.",
     "items": [
       ["10mmsmgmag", 100]
+
+    ]
+  },
+  
+      {
+    "type" : "item_group",
+    "id" : "mags_shotgun_fallout",
+    "//" : "shotgun mags.",
+    "items": [
+      ["citykillermag", 100]
 
     ]
   },
@@ -115,7 +194,11 @@
     "//" : "Common rifle magazines.",
     "items": [
       ["rangemastermag", 100],
-      ["rangemastermag2", 50]
+      ["rangemastermag2", 50],
+	  ["5mmmag", 25],
+	  ["5mmlargemag", 10],
+	  ["5mmdrummag", 5],
+	  ["5mmminigunmag", 1]
 
     ]
   },
@@ -125,7 +208,11 @@
     "id" : "books_fallout_common",
     "//" : "Common books about the Wasteland.",
     "items": [
-      ["jerky_vendor", 100]
+      ["jerky_vendor", 100],
+	  ["scout_guide", 100],
+	  ["electronics_deans", 75],
+	  ["electronics_deans_vault", 50],
+	  ["gunrunnerbook", 25]
 
     ]
   },

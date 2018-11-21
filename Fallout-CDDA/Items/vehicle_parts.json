@@ -30,5 +30,36 @@
         "category" : "veh_parts",
         "price": 140000,
         "insulation": 4
-    }
+    },
+	
+	    {
+        "type":"GENERIC",
+        "id" : "radio_atomic",
+        "name" : "atomic radio",
+        "description" : "A Radiation King brand radio, with a self-contained atomic battery, causing it to not drain power off the vehicle. The only stations on play oldies. odd.",
+        "weight" : 800,
+        "to_hit" : -2,
+        "color" : "red",
+        "symbol" : "&",
+        "material" : ["steel"],
+        "volume" : 14,
+        "category" : "veh_parts",
+        "price" : 800
+    },
+	
+	  {
+    "type": "GENERIC",
+    "id": "television_atomic",
+    "symbol": ";",
+    "color": "dark_gray",
+    "name": "atomic television",
+    "description": "A large Radiation King television.",
+    "material": "plastic",
+    "weight": 22600,
+    "volume": 12,
+    "bashing": 5,
+    "to_hit": -5,
+	"category" : "veh_parts",
+    "price" : 800
+  }
 ]

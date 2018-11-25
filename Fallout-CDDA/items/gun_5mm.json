@@ -10,6 +10,7 @@
     "price": 290000,
     "to_hit": -1,
     "bashing": 12,
+	    "looks_like": "ak47",
     "material": [ "steel", "wood" ],
     "symbol": "(",
     "color": "brown",

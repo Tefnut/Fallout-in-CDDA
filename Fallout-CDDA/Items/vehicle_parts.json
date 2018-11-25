@@ -61,5 +61,23 @@
     "to_hit": -5,
 	"category" : "veh_parts",
     "price" : 800
+  },
+  
+    {
+    "type": "WHEEL",
+    "id": "rotor_vertibird",
+    "category": "veh_parts",
+    "name": "Vertibird Rotor",
+    "description": "A military-grade rotor from a vertibird. It's motor is built in.",
+    "weight": 24500,
+    "volume": 70,
+    "price": 34000,
+    "bashing": 17,
+    "to_hit": -1,
+    "material": [ "hardsteel", "ceramic" ],
+    "symbol": "]",
+    "color": "green",
+    "diameter": 32,
+    "width": 20
   }
 ]

@@ -20,6 +20,30 @@
     ]
 	},
 	
+	  {
+    "type": "item_group",
+    "id": "ammo_heavy_fallout",
+    "//": "expensive ammo commonly used in big guns.",
+    "items": [
+    [ "47mm_caseless", 100 ],
+	[ "25mm_frag", 50 ],
+	[ "25mm_beanbag", 100 ],
+	[ "25mm_concussive", 100 ],
+    [ "25mm_flare", 10 ],
+	[ "25mm_flashbang", 10 ],
+    [ "25mm_flechette", 10 ],
+	[ "25mm_incendiary", 15 ],
+    [ "25mm_shot", 35 ],
+	[ "25mm_smoke", 30 ],
+    [ "25mm_teargas", 20 ],
+	[ "cannonball", 100 ],
+		[ "cannonshot", 100 ],
+				[ "cannonshell", 100 ],
+		[ "cannonball_explosive", 10 ]
+	
+    ]
+	},
+	
 	
 	  {
     "type": "item_group",
@@ -101,12 +125,29 @@
     ]
   },
   
+        {
+      "type": "item_group",
+    "id": "guns_heavy_fallout",
+    "//": "heavy weapons used by police and military forces.",
+    "items": [
+	  [ "l30", 100 ],
+	  [ "cz53minigun", 100 ],
+		  
+		  	[ "avenger", 50 ],
+			[ "vindicator", 50 ],
+			
+			[ "grenademg", 50 ],
+			[ "broadsider", 50 ]
+    ]
+  },
+  
     {
       "type": "item_group",
     "id": "guns_smg_fallout_common",
     "//": "SMGs commonly owned by citizens and found in many locations.",
     "items": [
-      [ "10mmsmg", 100 ]
+      [ "10mmsmg", 100 ],
+	  [ "tommygun", 50 ]
     ]
   },
   
@@ -159,6 +200,19 @@
   
       {
     "type" : "item_group",
+    "id" : "mags_heavy_fallout",
+    "//" : "Big gun mags.",
+    "items": [
+      ["5mmminigunmag", 100],
+	  ["47mmminigunmag", 50],
+	  ["25mmdrummag", 25],
+	  	  ["25mmdrummagxl", 10]
+
+    ]
+  },
+  
+      {
+    "type" : "item_group",
     "id" : "mags_pistol_fallout_rare",
     "//" : "Rare and exotic pistol mags.",
     "items": [
@@ -173,7 +227,9 @@
     "id" : "mags_smg_fallout_common",
     "//" : "Common smg mags.",
     "items": [
-      ["10mmsmgmag", 100]
+      ["10mmsmgmag", 100],
+	        ["thompson_bigmag", 50],
+			      ["thompson_drum", 25]
 
     ]
   },
@@ -210,9 +266,15 @@
     "items": [
       ["jerky_vendor", 100],
 	  ["scout_guide", 100],
+	  	  ["grognakcomic", 100],
+		  	  ["antagonizercomic", 100],
+			  	  ["chaingangcomic", 100],
+				  	  ["shroudcomic", 100],
+					  	  ["mantamancomic", 100],
 	  ["electronics_deans", 75],
 	  ["electronics_deans_vault", 50],
-	  ["gunrunnerbook", 25]
+	  ["gunrunnerbook", 25],
+	  ["wastelandgunsmith", 25]
 
     ]
   },

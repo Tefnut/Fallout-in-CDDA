@@ -68,8 +68,8 @@
      {
     "id": "4570",
     "type": "AMMO",
-    "name": ".45-70",
-    "description": ".45-70 ammunition. Popular in the old west, but rare nowadays.",
+    "name": ".45-70 govt.",
+    "description": ".45-70 govt. ammunition. Popular in the old west, but rare nowadays.",
     "weight": 8,
     "volume": 1,
     "price": 4400,

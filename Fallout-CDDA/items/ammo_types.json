@@ -39,7 +39,19 @@
     "name": "25mm grenade",
     "default": "25mm_frag",
     "type": "ammunition_type"
-  }
+  },
   
-
+        {
+    "id": "20ga",
+    "name": "20ga Shell",
+    "default": "20ga_shot",
+    "type": "ammunition_type"
+  },
+  
+        {
+    "id": "4570",
+    "name": ".45-70",
+    "default": "4570",
+    "type": "ammunition_type"
+  }
 ]

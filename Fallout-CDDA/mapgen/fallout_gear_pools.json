@@ -17,9 +17,10 @@
 	[ "9mmP", 30 ],
     [ "9mmP2", 20 ],
 	[ "14mm", 20 ],
-		[ "357_magnum", 20 ],
-				[ "357_magnum_hp", 10 ],
-						[ "357_magnum_ap", 10]
+	[ "357_magnum", 20 ],
+	[ "357_magnum_hp", 10 ],
+	[ "357_magnum_ap", 10],
+	[ "4570", 30]
 	
     ]
 	
@@ -78,7 +79,8 @@
 	[ "5mm", 50 ],
     [ "5mmjhp", 25 ],
 	[ "5mmap", 25 ],
-	[ "5mmincendiary", 5 ]
+	[ "5mmincendiary", 5 ],
+	[ "4570", 30]
 	
     ]
 	},
@@ -90,7 +92,9 @@
     "items": [
       [ "redryder", 100 ],
 	  [ "colt_rangemaster", 100 ],
-	  [ "dks501", 50 ]
+	  [ "cowboy_repeater", 100 ],
+	  [ "dks501", 50 ],
+	  [ "brush_gun", 50 ]
     ]
   },
   
@@ -101,7 +105,10 @@
     "items": [
       [ "redryderle", 100 ],
 	  [ "dks501", 75 ],
-	  [ "ak112", 10 ]
+	  [ "brush_gun", 75 ],
+	  [ "ak112", 50 ],
+	  	  [ "cowboy_repeater_longue", 10 ],
+		  	  [ "brush_gun_medicine", 10 ]
     ]
   },
   {
@@ -126,7 +133,8 @@
 	  [ "deagle_44", 100 ],
 	  [ "thatgun", 75],
 	  [ "14mmpistol", 50 ],
-	  	  	  [ "357_magnum_revolver_lucky", 5 ]
+	  [ "revolver_ranger", 50 ],
+	  [ "357_magnum_revolver_lucky", 5 ]
     ]
   },
   

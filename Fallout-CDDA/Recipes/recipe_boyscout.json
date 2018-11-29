@@ -633,7 +633,47 @@
 	  
 	  ]
 	   
-	 }
+	 },
+	 
+	   {
+    "type" : "recipe",
+    "result": "healing_powder",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": 18000,
+    "book_learn": [ [ "scout_guide", 1 ] ],
+    "batch_time_factors": [ 67, 5 ],
+    "tools": [
+      [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ]
+    ],
+    "components": [
+	[ [ "broc_flower", 1 ] ],
+		[ [ "xander_root", 1 ] ]
+	  ]
+  },
+  
+  	   {
+    "type" : "recipe",
+    "result": "healing_powder_drink",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 0,
+    "time": 10,
+    "book_learn": [ [ "scout_guide", 1 ] ],
+    "batch_time_factors": [ 67, 5 ],
+    "tools": [
+      [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ]
+    ],
+    "components": [
+	[ [ "healing_powder", 1 ] ],
+		[ [ "cola_nuka", 1 ] ]
+	  ]
+  }
+  
+  
 	   
 	   ]
 

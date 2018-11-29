@@ -19,6 +19,26 @@
     "rot_spawn_chance": 70
   },
   
+    {
+    "type": "COMESTIBLE",
+    "id": "egg_gecko",
+    "name": "gecko egg",
+    "weight": 220,
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": 10,
+    "calories": 174,
+    "description": "A fist-sized egg from a gecko.",
+    "price": 80,
+    "material": "egg",
+    "volume": 1,
+	"spoils_in": "1 day",
+    "fun": 3,
+	"rot_spawn": "GROUP_EGG_GECKO",
+    "rot_spawn_chance": 70
+  },
+  
   {
     "type": "COMESTIBLE",
     "id": "egg_mantis",

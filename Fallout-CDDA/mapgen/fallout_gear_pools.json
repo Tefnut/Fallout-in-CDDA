@@ -108,6 +108,7 @@
 	  [ "dks501", 75 ],
 	  [ "brush_gun", 75 ],
 	  [ "ak112", 50 ],
+	  	  [ "wattz_2000", 50 ],
 	  	  [ "cowboy_repeater_longue", 10 ],
 		  	  [ "brush_gun_medicine", 10 ]
     ]
@@ -121,6 +122,7 @@
 	  [ "mauser_9mm", 75 ],
 	  	  [ "357_magnum_revolver", 75 ],
 	  [ "deagle_44", 50 ],
+	  	  [ "wattz_1000", 50 ],
 	  [ "thatgun", 25 ],
 	  [ "14mmpistol", 1 ]
     ]
@@ -132,9 +134,11 @@
     "//": "Pistols rarely used by anyone outside of the military, either due to their expensive nature or regulations..",
     "items": [
 	  [ "deagle_44", 100 ],
+	  	  [ "wattz_1000", 100 ],
 	  [ "thatgun", 75],
 	  [ "14mmpistol", 50 ],
 	  [ "revolver_ranger", 50 ],
+	  	  [ "wattz_1000_magneto", 25 ],
 	  [ "357_magnum_revolver_lucky", 5 ]
     ]
   },
@@ -322,20 +326,54 @@
     "type" : "item_group",
     "//" : "nuka cola! and sunset sasparilla... but mostly Nuka Cola!",
     "items": [
-      [ "cola_nuka", 150 ],
+      [ "cola_nuka", 100 ],
       [ "cola_newka", 30 ],
-      [ "cola_nuka_quantum", 20 ]
+      [ "cola_nuka_quantum", 20 ],
+	        [ "cola_nuka_piss", 1 ]
+    ]
+  },
+  
+      {
+    "id": "drinks_fallout_booze",
+    "type" : "item_group",
+    "//" : "Alcohol from throughout the Fallout world!",
+    "items": [
+      [ "rotgut", 100 ],
+      [ "rum_roentgen", 100 ],
+      [ "beer_gamma", 100 ],
+	        [ "beer_5x", 50 ]
     ]
   },
   
       {
     "id": "food_iguana",
     "type" : "item_group",
-    "//" : "Bob's Iguana Bits!",
+    "//" : "Bob's Iguana Bits! Also, Gecko Jerky and kebabs.",
     "items": [
-      [ "stick_iguana", 50 ],
+      [ "stick_iguana", 100 ],
       [ "stick_iguana_premium", 45 ],
+	        [ "jerky_gecko", 45 ],
+			      [ "kebab_gecko", 45 ],
       [ "stick_iguana_premiumh", 5 ]
+    ]
+  },
+  
+        {
+    "id": "food_produce_fallout",
+    "type" : "item_group",
+    "//" : "Crops and plants from throughout the Fallout world",
+    "items": [
+      [ "broc_flower", 100 ],
+      [ "xander_root", 100 ]
+    ]
+  },
+  
+          {
+    "id": "food_prewar_fallout",
+    "type" : "item_group",
+    "//" : "Crops and plants from throughout the Fallout world",
+    "items": [
+      [ "pie_happy", 100 ]
     ]
   }
 ]

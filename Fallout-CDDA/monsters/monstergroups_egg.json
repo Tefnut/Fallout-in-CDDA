@@ -10,5 +10,15 @@
     "name": "GROUP_EGG_RADSCORPION",
     "type": "monstergroup",
     "default": "mon_radscorpion_small"
+  },
+  
+      {
+    "name": "GROUP_EGG_GECKO",
+    "type": "monstergroup",
+    "default": "mon_gecko_young",
+	    "monsters": [
+      { "monster": "mon_gecko_young", "freq": 5, "cost_multiplier": 1 },
+      { "monster": "mon_gecko_gold_young", "freq": 1, "cost_multiplier": 1 }
+    ]
   }
 ]

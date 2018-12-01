@@ -39,6 +39,26 @@
     "rot_spawn_chance": 70
   },
   
+      {
+    "type": "COMESTIBLE",
+    "id": "egg_deathclaw",
+    "name": "deathclaw egg",
+    "weight": 220,
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": 10,
+    "calories": 174,
+    "description": "A large-sized egg from a deathclaw.",
+    "price": 80,
+    "material": "egg",
+    "volume": 1,
+	"spoils_in": "1 day",
+    "fun": 3,
+	"rot_spawn": "GROUP_EGG_DEATHCLAW",
+    "rot_spawn_chance": 70
+  },
+  
   {
     "type": "COMESTIBLE",
     "id": "egg_mantis",

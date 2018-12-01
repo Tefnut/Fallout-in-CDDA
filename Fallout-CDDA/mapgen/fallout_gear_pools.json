@@ -52,6 +52,16 @@
 	
 		  {
     "type": "item_group",
+    "id": "ammo_energy_fallout",
+    "//": "expensive ammo commonly used in big guns.",
+    "items": [
+    [ "battery", 100 ],
+	[ "plasma", 50 ]
+    ]
+	},
+	
+		  {
+    "type": "item_group",
     "id": "ammo_shotgun_fallout",
     "//": "Shotgun ammo.",
     "items": [
@@ -62,7 +72,7 @@
     [ "20ga_flechette", 25 ],
 	[ "20ga_slug", 50 ],
     [ "20ga_bird", 100 ],
-		[ "shot_he", 10 ]
+	[ "shot_he", 10 ]
 	
     ]
 	},
@@ -92,6 +102,7 @@
     "//": "rifles common to civilian use.",
     "items": [
       [ "redryder", 100 ],
+	  [ "varmint_rifle", 100 ],
 	  [ "colt_rangemaster", 100 ],
 	  [ "cowboy_repeater", 100 ],
 	  [ "dks501", 50 ],
@@ -108,9 +119,11 @@
 	  [ "dks501", 75 ],
 	  [ "brush_gun", 75 ],
 	  [ "ak112", 50 ],
-	  	  [ "wattz_2000", 50 ],
-	  	  [ "cowboy_repeater_longue", 10 ],
-		  	  [ "brush_gun_medicine", 10 ]
+	  [ "bozar", 50 ],
+	  [ "wattz_2000", 50 ],
+	  [ "cowboy_repeater_longue", 10 ],
+	  [ "varmint_rifle_ratslayer", 10 ],
+	  [ "brush_gun_medicine", 10 ]
     ]
   },
   {
@@ -119,10 +132,11 @@
     "//": "Pistols commonly owned by citizens and found in many locations.",
     "items": [
       [ "colt6250", 100 ],
+	  [ "22_pistol", 100 ],
 	  [ "mauser_9mm", 75 ],
-	  	  [ "357_magnum_revolver", 75 ],
+	  [ "357_magnum_revolver", 75 ],
 	  [ "deagle_44", 50 ],
-	  	  [ "wattz_1000", 50 ],
+	  [ "wattz_1000", 50 ],
 	  [ "thatgun", 25 ],
 	  [ "14mmpistol", 1 ]
     ]
@@ -134,12 +148,13 @@
     "//": "Pistols rarely used by anyone outside of the military, either due to their expensive nature or regulations..",
     "items": [
 	  [ "deagle_44", 100 ],
-	  	  [ "wattz_1000", 100 ],
+	  [ "wattz_1000", 100 ],
 	  [ "thatgun", 75],
 	  [ "14mmpistol", 50 ],
 	  [ "revolver_ranger", 50 ],
-	  	  [ "wattz_1000_magneto", 25 ],
-	  [ "357_magnum_revolver_lucky", 5 ]
+	  [ "wattz_1000_magneto", 25 ],
+	  [ "357_magnum_revolver_lucky", 5 ],
+	  [ "colt6250_weathered", 5 ]
     ]
   },
   
@@ -149,9 +164,9 @@
     "//": "Shotguns commonly owned by citizens and found in many locations.",
     "items": [
       [ "widowmaker", 75 ],
-	        [ "20ga_singleshot", 100 ],
-			      [ "caravan_shotgun", 75 ],
-				        [ "caravan_shotgun_sturdy", 50 ],
+	  [ "20ga_singleshot", 100 ],
+	  [ "caravan_shotgun", 75 ],
+	  [ "caravan_shotgun_sturdy", 50 ],
 	  [ "citykiller", 10 ]
     ]
   },
@@ -161,7 +176,7 @@
     "id": "guns_shotgun_fallout_rare",
     "//": "Shotguns used by police and military forces.",
     "items": [
-		  [ "caravan_shotgun", 100 ],
+	  [ "caravan_shotgun_sturdy", 100 ],
 	  [ "citykiller", 100 ]
     ]
   },
@@ -173,12 +188,32 @@
     "items": [
 	  [ "l30", 100 ],
 	  [ "cz53minigun", 100 ],
-		  
-		  	[ "avenger", 50 ],
-			[ "vindicator", 50 ],
-			
-			[ "grenademg", 50 ],
-			[ "broadsider", 50 ]
+	  [ "bozar", 50 ],  
+	  [ "avenger", 50 ],
+	  [ "vindicator", 50 ],
+	  [ "grenademg", 50 ],
+	  [ "broadsider", 50 ]
+    ]
+  },
+  
+  {
+      "type": "item_group",
+    "id": "guns_energy_fallout",
+    "//": "energy weapons used by Fallout factions.",
+    "items": [
+	  [ "wattz_1000", 100 ],
+	  [ "wattz_2000", 100 ],
+	  [ "laser_pistol_aep", 100 ],
+	  [ "aer9", 100 ],
+	  [ "aer9_tribeam", 50 ],
+	  [ "laser_rcw", 50 ],
+	  [ "l30", 25 ],
+	  [ "p94_caster", 25 ],
+	  [ "p94_rifle", 25 ],
+	  [ "wattz_1000_magneto", 5 ],
+	  [ "aer14_prototype", 5 ],
+	  [ "laser_pistol_aep_pewpew", 5 ]
+
     ]
   },
   
@@ -188,7 +223,21 @@
     "//": "SMGs commonly owned by citizens and found in many locations.",
     "items": [
       [ "10mmsmg", 100 ],
+	  [ "greasegun", 100 ],
 	  [ "tommygun", 50 ]
+    ]
+  },
+  
+      {
+      "type": "item_group",
+    "id": "guns_smg_fallout_rare",
+    "//": "SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      [ "tommygun", 100 ],
+	  [ "14mmsmg", 50 ],
+	  [ "hk_p90c", 50 ],
+	  [ "laser_rcw", 50 ],
+	  [ "tommygun_silver", 5 ]
     ]
   },
   
@@ -270,8 +319,10 @@
     "//" : "Common smg mags.",
     "items": [
       ["10mmsmgmag", 100],
-	        ["thompson_bigmag", 50],
-			      ["thompson_drum", 25]
+	  ["thompson_bigmag", 50],
+	  ["p90cmag", 50],
+	  ["14mmsmgmag", 50],
+	  ["thompson_drum", 25]
 
     ]
   },

@@ -23,7 +23,14 @@
       { "monster" : "mon_gecko", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
       { "monster" : "mon_gecko_gold", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [1,3] },
       { "monster" : "mon_gecko_young", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
-      { "monster" : "mon_gecko_gold_young", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [1,3] }			  
+      { "monster" : "mon_gecko_gold_young", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [1,3] },	
+      { "monster" : "mon_deathclaw", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_albino", "freq" : 150, "cost_multiplier" : 0, "pack_size" : [2,3] },
+	  { "monster" : "mon_deathclaw_glowing", "freq" : 75, "cost_multiplier" : 0, "pack_size" : [2,3] },
+	  { "monster" : "mon_deathclaw_mother", "freq" : 25, "cost_multiplier" : 0 },
+      { "monster" : "mon_deathclaw_young", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_albino_young", "freq" : 150, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_glowing_young", "freq" : 75, "cost_multiplier" : 0, "pack_size" : [2,3] }		  
     ]
   },
 
@@ -32,7 +39,9 @@
     "type":"monstergroup",
     "name" : "GROUP_SEWER",
     "monsters" : [
-      { "monster" : "mon_cave_rat", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,6] }
+      { "monster" : "mon_cave_rat", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,6] },
+	        { "monster" : "mon_gecko_gold", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [1,3] },
+				        { "monster" : "mon_deathclaw_glowing_young", "freq" : 300, "cost_multiplier" : 0}
     ]
   },
   
@@ -40,7 +49,14 @@
     "type":"monstergroup",
     "name" : "GROUP_CAVE",
     "monsters" : [
-      { "monster" : "mon_cave_rat", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,6] }
+      { "monster" : "mon_cave_rat", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,6] },
+	  { "monster" : "mon_deathclaw", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_albino", "freq" : 150, "cost_multiplier" : 0, "pack_size" : [2,3] },
+	  { "monster" : "mon_deathclaw_glowing", "freq" : 75, "cost_multiplier" : 0, "pack_size" : [2,3] },
+	  { "monster" : "mon_deathclaw_mother", "freq" : 25, "cost_multiplier" : 0 },
+      { "monster" : "mon_deathclaw_young", "freq" : 300, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_albino_young", "freq" : 150, "cost_multiplier" : 0, "pack_size" : [2,3] },
+      { "monster" : "mon_deathclaw_glowing_young", "freq" : 75, "cost_multiplier" : 0, "pack_size" : [2,3] }	
     ]
   }
 ]

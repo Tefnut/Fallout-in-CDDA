@@ -21,7 +21,60 @@
     "barrel_length": 2,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
     "magazines": [
-      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag" ] ]
+      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
+    ]
+  },
+  
+     {
+    "id": "Varmint Rifle",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+    "name": "Varmint Rifle",
+    "description": "A bolt-action .223 rifle. It's popular for hunting vermin.",
+    "weight": 2800,
+    "volume": 8,
+    "price": 92100,
+    "to_hit": 1,
+    "bashing": 12,
+	    "looks_like": "marlin_9a",
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "223",
+    "ranged_damage": 2,
+    "dispersion": 100,
+    "durability": 8,
+    "barrel_length": 1,
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "magazines": [
+      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
+    ]
+  },
+  
+     {
+    "id": "varmint_rifle_ratslayer",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+    "name": "Rat Slayer's Rifle",
+    "description": "A varmint rifle that appears to have been customized by an exterminator to stealthily hunt vermin. It has a black finish, with a rat skull engraved upon it",
+    "weight": 2800,
+    "volume": 8,
+    "price": 92100,
+    "to_hit": 1,
+    "bashing": 12,
+	    "looks_like": "marlin_9a",
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "black",
+    "ammo": "223",
+    "ranged_damage": 4,
+    "dispersion": 100,
+    "durability": 10,
+    "barrel_length": 3,
+	  "built_in_mods": [ "rifle_scope", "suppressor", "recoil_stock"],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "magazines": [
+      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
   },
   
@@ -47,7 +100,7 @@
     "barrel_length": 3,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
     "magazines": [
-      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag" ] ]
+      [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
   },
   
@@ -80,6 +133,32 @@
       [ "sights", 1 ],
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
+    ]
+  },
+  
+    {
+    "id": "bozar",
+    "copy-from": "rifle_auto",
+    "type": "GUN",
+    "name": "Bozar",
+    "description": "The ultimate refinement of the sniper's art. Although, somewhat finicky and prone to jamming if not kept scrupulously clean, the big weapon's accuracy more than makes up for its extra maintenance requirements.",
+    "weight": 3495,
+    "volume": 8,
+    "price": 234300,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": 20,
+    "dispersion": 75,
+    "durability": 6,
+    "burst": 15,
+    "barrel_length": 3,
+    "magazines": [
+      [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag", "rangemastermag", "rangemastermag2" ] ],
+      [ "308", [ "g3mag", "g3bigmag" ] ]
     ]
   }
 ]

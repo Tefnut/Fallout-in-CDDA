@@ -20,5 +20,16 @@
       { "monster": "mon_gecko_young", "freq": 5, "cost_multiplier": 1 },
       { "monster": "mon_gecko_gold_young", "freq": 1, "cost_multiplier": 1 }
     ]
+  },
+  
+        {
+    "name": "GROUP_EGG_DEATHCLAW",
+    "type": "monstergroup",
+    "default": "mon_deathclaw_young",
+	    "monsters": [
+      { "monster": "mon_deathclaw_young", "freq": 5, "cost_multiplier": 1 },
+	       { "monster": "mon_deathclaw_albino_young", "freq": 5, "cost_multiplier": 1 },
+		   	       { "monster": "mon_deathclaw_glowing_young", "freq": 5, "cost_multiplier": 1 }
+    ]
   }
 ]

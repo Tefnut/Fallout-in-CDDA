@@ -406,8 +406,9 @@
     "items": [
       [ "stick_iguana", 100 ],
       [ "stick_iguana_premium", 45 ],
-	        [ "jerky_gecko", 45 ],
-			      [ "kebab_gecko", 45 ],
+	  [ "jerky_gecko", 100 ],
+	  [ "kebab_gecko", 45 ],
+	  [ "meat_wonder", 100 ],
       [ "stick_iguana_premiumh", 5 ]
     ]
   },
@@ -418,16 +419,43 @@
     "//" : "Crops and plants from throughout the Fallout world",
     "items": [
       [ "broc_flower", 100 ],
-      [ "xander_root", 100 ]
+      [ "xander_root", 100 ],
+	  [ "cave_fungus", 100 ],
+	  [ "mutfruit", 100 ],
+	  [ "mutfruit_crunchy", 100 ],
+	  [ "fruit_punga", 100 ]
+    ]
+  },
+  
+  {
+    "id": "seed_produce_fallout",
+    "type" : "item_group",
+    "//" : "Crops and plants from throughout the Fallout world",
+    "items": [
+      [ "seed_broc", 100 ],
+      [ "seed_xander_root", 100 ],
+	  [ "seed_cave_fungus", 100 ],
+	  [ "seed_crunchy_mutfruit", 100 ],
+	  [ "seed_mutfruit", 100 ],
+	  [ "seed_punga", 100 ]
     ]
   },
   
           {
     "id": "food_prewar_fallout",
     "type" : "item_group",
-    "//" : "Crops and plants from throughout the Fallout world",
+    "//" : "Processed food from throughout the Fallout world",
     "items": [
-      [ "pie_happy", 100 ]
+      [ "pie_happy", 100 ],
+	  [ "macaroni_blamco_raw", 100 ],
+	  [ "can_cram", 100 ],
+	  [ "instamash_raw", 100 ],
+	  [ "fancylad", 100 ],
+	  [ "salisbury_steak_fallout", 100 ],
+	  [ "sugarbombs", 100 ],
+	  [ "eggs_devilled_fallout", 100 ]
     ]
   }
+  
+ 
 ]

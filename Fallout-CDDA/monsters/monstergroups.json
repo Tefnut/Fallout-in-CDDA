@@ -58,5 +58,20 @@
       { "monster" : "mon_deathclaw_albino_young", "freq" : 150, "cost_multiplier" : 0, "pack_size" : [2,3] },
       { "monster" : "mon_deathclaw_glowing_young", "freq" : 75, "cost_multiplier" : 0, "pack_size" : [2,3] }	
     ]
+  },
+  
+  {
+    "name": "GROUP_PROTECTRON",
+    "type": "monstergroup",
+    "default": "mon_protectron",
+	    "monsters": [
+      { "monster": "mon_protectron", "freq": 300, "cost_multiplier": 1 },
+	  { "monster": "mon_protectron_construction", "freq": 250, "cost_multiplier": 1 },
+	  { "monster": "mon_protectron_fire", "freq": 250, "cost_multiplier": 1 },
+	  { "monster": "mon_protectron_wattz", "freq": 50, "cost_multiplier": 1 },
+	  { "monster": "mon_protectron_takahashi", "freq": 50, "cost_multiplier": 1 },
+	  { "monster": "mon_protectron_subway", "freq": 50, "cost_multiplier": 1 }
+    ]
   }
+  
 ]

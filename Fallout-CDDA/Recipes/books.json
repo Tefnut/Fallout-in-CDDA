@@ -218,5 +218,25 @@
     "intelligence": 3,
     "time": 30,
     "fun": 3
+  },
+  
+  {
+    "id": "totalhack",
+    "type": "BOOK",
+    "name": "Total Hack",
+    "name_plural": "Total Hack",
+    "description": "Everything you need to know about robots, turrets, and even computers.",
+    "weight": 1587,
+    "volume": 7,
+    "price": 9800,
+    "bashing": 5,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "blue",
+    "skill": "computer",
+    "max_level": 6,
+    "intelligence": 3,
+    "time": 30,
+    "fun": -1
   }
 ]

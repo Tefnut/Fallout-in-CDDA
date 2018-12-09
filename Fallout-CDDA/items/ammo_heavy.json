@@ -123,7 +123,7 @@
     "material": [ "steel", "powder" ],
     "symbol": "=",
     "color": "yellow",
-    "count": 4,
+    "count": 40,
     "stack_size": 10,
     "ammo_type": "25mm",
     "casing": "25mm_casing",
@@ -221,6 +221,45 @@
     "description": "A 25mm grenade with a teargas load.  It will burst in a cloud of highly incapacitating gas.",
     "drop": "gasbomb_act",
     "extend": { "effects": [ "NO_EMBED" ] }
-  }
+  },
+  
+  {   "type" : "AMMO",
+        "id" : "bbrocket",
+        "price" : 0,
+        "name" : "Explosive Rocket",
+        "symbol" : "=",
+        "color" : "dark_gray",
+        "description" : "A rocket with a large explosive warhead",
+        "material" : ["steel", "powder"],
+        "volume" : 1,
+        "weight" : 1803,
+        "ammo_type" : "bbrocket",
+        "damage" : 2500,
+        "range" : 80,
+		"count": 4,
+        "dispersion" : 30,
+        "recoil" : 225,
+        "effects" : ["COOKOFF", "EXPLOSIVE", "TRAIL"]
+    },
+	
+	{   "type" : "AMMO",
+        "id" : "bbrocketap",
+        "price" : 0,
+        "name" : "Armor Piercing Rocket Rocket",
+        "symbol" : "=",
+        "color" : "dark_gray",
+        "description" : "A rocket shell, with a smaller explosive, but designed to pierce armor plating.",
+        "material" : ["steel", "powder"],
+        "volume" : 1,
+        "weight" : 1803,
+        "ammo_type" : "bbrocket",
+        "damage" : 1500,
+        "pierce" : 400,
+        "range" : 80,
+		"count": 4,
+        "dispersion" : 30,
+        "recoil" : 225,
+        "effects" : ["COOKOFF", "EXPLOSIVE", "TRAIL"]
+    }
  
 ]

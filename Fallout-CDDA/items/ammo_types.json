@@ -53,5 +53,12 @@
     "name": ".45-70",
     "default": "4570",
     "type": "ammunition_type"
-  }
+  },
+  
+  {
+        "type" : "ammunition_type",
+        "id" : "bbrocket",
+        "name" : "Rockwell Bigbazooka Rocket",
+        "default" : "bbrocket"
+    }
 ]

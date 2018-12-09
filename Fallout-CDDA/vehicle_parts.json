@@ -124,6 +124,22 @@
   },
   
   {
+    "id": "mounted_bigbazooka",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": "mounted Rockwell BigBazooka",
+    "item": "rockwell_bigbazooka",
+    "color": "green",
+    "broken_color": "green",
+    "difficulty": 4,
+    "breaks_into": [ { "item": "rockwell_bigbazooka", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "launcher", 1 ] ], "time": 10000 },
+      "removal": { "skills": [ [ "mechanics", 2 ] ] }
+    }
+  },
+  
+  {
     "id": "mounted_wattz_2000",
     "copy-from": "turret",
     "type": "vehicle_part",
@@ -212,7 +228,7 @@
     "color": "green",
     "broken_color": "green",
     "difficulty": 4,
-    "breaks_into": [ { "item": "laser_rcw", "prob": 100 } ],
+    "breaks_into": [ { "item": "p94_caster", "prob": 100 } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ], [ "launcher", 1 ] ], "time": 10000 },
       "removal": { "skills": [ [ "mechanics", 2 ] ] }

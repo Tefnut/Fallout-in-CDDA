@@ -269,6 +269,44 @@
     "death_drops": { "groups": [ [ "robots", 4 ] ] },
     "death_function": [ "BROKEN" ],
     "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
+  },
+  
+  {
+    "id": "mon_protectron_fisto",
+    "type": "MONSTER",
+    "name": "Protectron?",
+    "description": "The sturdy Protectron model of robot was created before the great cataclysm, and served as a security automaton in both the private and business sectors. This one speaks about ... ewwwwwwwwwwwwwwwwwwwwwww",
+    "default_faction": "cop_bot",
+    "species": [ "ROBOT" ],
+    "diff": 12,
+    "volume": "62500 ml",
+    "weight": 81500,
+    "hp": 80,
+    "speed": 60,
+    "material": [ "steel" ],
+    "symbol": "P",
+    "color": "light_gray",
+    "aggression": 60,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 2,
+    "melee_bash": 8,
+    "dodge": 2,
+	"revert_to_itype": "bot_protectron_fisto_inactive",
+    "armor_bash": 12,
+    "armor_cut": 8,
+    "vision_day": 50,
+	
+	"starting_ammo": { "battery": 1000 },
+    "special_attacks": [
+	[ "PARROT", 0 ]
+      
+    ],
+    "path_settings": { "max_dist": 5 },
+    "death_drops": { "groups": [ [ "robots", 4 ] ] },
+    "death_function": [ "BROKEN" ],
+    "flags": [ "SEES", "HEARS", "BASHES", "ELECTRONIC", "NO_BREATHE", "PRIORITIZE_TARGETS", "PATH_AVOID_DANGER_1" ]
   }
 
 

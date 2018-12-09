@@ -78,9 +78,29 @@
 	
 	{
         "type" : "speech",
-        "speaker" : "mon_protectron_takahashi",
+        "speaker" : "mon_protectron_subway",
         "sound" : "\"Present your subway token- *BZZZT* ERROR! DATA CORRUPTED.\"",
         "volume" : 40
-    }
+    },
 	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Please assume the position.\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Fist me daddy!\"",
+        "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_protectron_fisto",
+        "sound" : "\"Let me fist you.\"",
+        "volume" : 40
+    }
 ]

@@ -9,7 +9,7 @@
 	[ "10mmhp", 100 ],
 	[ "10mmap", 100 ],
     [ "10mmjhp", 100 ],
-			[ "38_special", 100 ],
+	[ "38_special", 100 ],
 	[ "9mm", 100 ],
     [ "9mmfmj", 100 ],
 	[ "44fmj", 15 ],
@@ -32,6 +32,7 @@
     "//": "expensive ammo commonly used in big guns.",
     "items": [
     [ "47mm_caseless", 100 ],
+	[ "bbrocket", 100 ],
 	[ "25mm_frag", 50 ],
 	[ "25mm_beanbag", 100 ],
 	[ "25mm_concussive", 100 ],
@@ -39,13 +40,14 @@
 	[ "25mm_flashbang", 10 ],
     [ "25mm_flechette", 10 ],
 	[ "25mm_incendiary", 15 ],
+	[ "bbrocketap", 50 ],
     [ "25mm_shot", 35 ],
 	[ "25mm_smoke", 30 ],
     [ "25mm_teargas", 20 ],
 	[ "cannonball", 100 ],
-		[ "cannonshot", 100 ],
-				[ "cannonshell", 100 ],
-		[ "cannonball_explosive", 10 ]
+	[ "cannonshot", 100 ],
+	[ "cannonshell", 100 ],
+	[ "cannonball_explosive", 10 ]
 	
     ]
 	},
@@ -193,6 +195,7 @@
 	  [ "vindicator", 50 ],
 	  [ "grenademg", 50 ],
 	  [ "10mmgatling", 50 ],
+	  [ "rockwell_bigbazooka", 50 ],
 	  [ "broadsider", 50 ]
     ]
   },

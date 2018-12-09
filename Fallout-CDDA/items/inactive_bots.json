@@ -147,5 +147,28 @@
       "skill1": "electronics",
       "skill2": "computer"
     }
+  },
+  
+  {
+    "id": "bot_protectron_fisto_inactive",
+    "type": "TOOL",
+    "name": "inactive protectron?",
+    "description": "This is an inactive protectron. Use this item to reprogram and activate the protectron. If it works, youll have a friend for life.",
+    "weight": 5400,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_protectron_fisto",
+      "friendly_msg": "The protectron gets up and salutes you with it's little robotic arm!",
+      "moves": 60,
+      "place_randomly": true
+    }
   }
 ]

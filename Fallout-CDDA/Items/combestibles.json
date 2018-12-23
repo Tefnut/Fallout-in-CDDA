@@ -21,7 +21,12 @@
     "volume": 1,
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-    "fun": 7
+	"freezing_point": -50,
+    "fun": 7,
+	"fuel": {
+      "energy": 34,
+	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
+    }
   },
   
     {
@@ -46,7 +51,12 @@
     "volume": 1,
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-    "fun": -7
+	"freezing_point": -50,
+    "fun": -7,
+	"fuel": {
+      "energy": 68,
+	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
+    }
   },
   
     {
@@ -71,7 +81,12 @@
     "volume": 1,
     "phase": "liquid",
     "flags": [ "EATEN_COLD" ],
-    "fun": 4
+	"freezing_point": -50,
+    "fun": 4,
+	"fuel": {
+      "energy": 136,
+	  "explosion_data": { "chance_hot": 20, "chance_cold": 1000, "factor": 0.2, "fiery": false, "size_factor": 0.1 }
+    }
   },
   
     {
@@ -301,7 +316,7 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 1,
-    "calories": 386,
+    "calories": 286,
     "description": "a large omelette made from easily foraged goods. This one lacks meat and milk. If it werent for the egg, it would be a vegan meal. Its more bland though.",
     "price": 500,
     "material": [ "egg", "veggy", "fruit"],
@@ -323,14 +338,14 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 1,
-    "calories": 386,
+    "calories": 186,
     "description": "a large omelette made from easily foraged goods. This one lacks meat and milk. If it werent for the egg, it would be a vegan meal. The fruit was taken out too. It's much more bland now. At least its easier to make.",
     "price": 500,
     "material": [ "egg", "veggy"],
     "volume": 1,
     "charges": 6,
     "flags": [ "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 5,
     "rot_spawn": "GROUP_CARRION"
   }
 ]

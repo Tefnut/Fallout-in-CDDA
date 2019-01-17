@@ -12,6 +12,13 @@
     "default": "mon_radscorpion_small"
   },
   
+  {
+    "name": "GROUP_EGG_MIRELURK",
+    "type": "monstergroup",
+    "default": "mon_mirelurk_baby"
+  },
+  
+  
       {
     "name": "GROUP_EGG_GECKO",
     "type": "monstergroup",

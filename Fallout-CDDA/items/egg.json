@@ -88,5 +88,32 @@
     "fun": -20,
     "rot_spawn": "GROUP_EGG_MANTIS",
     "rot_spawn_chance": 70
+  },
+  
+   {
+    "type": "COMESTIBLE",
+    "id": "mirelurk_egg",
+    "name": "mirelurk egg",
+    "weight": 220,
+    "color": "white",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+	
+	"use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_mirelurk_baby",
+      "friendly_msg": "You smash an egg. Out emerges a baby mirelurk! It begins to follow you.",
+      "difficulty": 0,
+      "moves": 100,
+      "place_randomly": true
+    },
+	
+    "quench": 10,
+    "calories": 174,
+    "description": "A mirelurk egg. Prized by many for its specific taste",
+    "price": 80,
+    "material": "egg",
+    "volume": 1,
+    "fun": 5
   }
 ]

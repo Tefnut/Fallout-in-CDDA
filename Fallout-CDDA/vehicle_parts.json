@@ -83,7 +83,7 @@
 	"epower": -400,
     "item": "television",
     "difficulty": 2,
-    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER", "OBSTACLE", "CAMERA_CONTROL", "DOME_LIGHT" ],
+    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER", "CAMERA_CONTROL", "DOME_LIGHT" ],
     "breaks_into": "ig_vp_device"
   },
   
@@ -102,7 +102,7 @@
     "bonus": 80,
     "item": "radio_atomic",
     "difficulty": 2,
-    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "OBSTACLE", "CAMERA_CONTROL", "DOME_LIGHT" ],
+    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "CAMERA_CONTROL", "DOME_LIGHT" ],
     "breaks_into": "ig_vp_device"
   },
   

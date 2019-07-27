@@ -24,9 +24,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "animal_small_noskin",
     "vision_day": 3,
     "vision_night": 35,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -88,9 +88,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "animal_large_noskin",
     "vision_day": 35,
     "vision_night": 35,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -152,9 +152,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "animal_small_noskin",
     "vision_day": 3,
     "vision_night": 35,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -218,9 +218,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "animal_large_noskin",
     "vision_day": 35,
     "vision_night": 35,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -285,9 +285,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "mammal",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -349,9 +349,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
+    "harvest": "mammal_large",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -413,9 +413,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
+    "harvest": "mammal_large",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -478,9 +478,9 @@
     "dodge": 2,
     "armor_bash": 6,
     "armor_cut": 8,
+    "harvest": "mammal",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -542,9 +542,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
+    "harvest": "mammal_large",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -609,9 +609,9 @@
     "armor_bash": 6,
     "armor_cut": 8,
 	    "luminance": 200,
+    "harvest": "mammal",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {
@@ -676,9 +676,9 @@
     "dodge": 2,
     "armor_bash": 12,
     "armor_cut": 12,
+    "harvest": "mammal_large",
     "vision_day": 70,
     "vision_night": 70,
-	"harvest": "animal_large_noskin",
     "path_settings": { "max_dist": 8 },
     "special_attacks": [
       {

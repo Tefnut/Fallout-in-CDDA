@@ -103,7 +103,7 @@
   {
     "type": "COMESTIBLE",
     "id": "mutfruit_crunchy",
-    "name": "Crunchy Mutfruit",
+    "name": "mutfruit_crunchy",
     "weight": 182,
     "color": "purple",
     "comestible_type": "FOOD",
@@ -144,7 +144,8 @@
    {
     "type": "COMESTIBLE",
     "id": "instamash_cooked",
-    "name": "Cooked Instamash",
+    "name": "baked potato",
+    "name_plural": "baked potatoes",
     "weight": 210,
     "color": "brown",
     "spoils_in": "2 days",
@@ -202,7 +203,7 @@
    {
     "type": "COMESTIBLE",
     "id": "salisbury_steak_fallout",
-    "name": "Uncooked Saddle Up Salisbury Steak",
+    "name": "Uncooked Salisbury Steak",
     "weight": 453,
     "color": "brown",
     "container": "box_small",
@@ -222,7 +223,7 @@
   {
     "type": "COMESTIBLE",
     "id": "cooked_salisbury_steak_fallout",
-    "name": "cooked Saddle Up Salisbury Steak",
+    "name": "cooked Salisbury Steak",
     "weight": 450,
     "color": "brown",
     "comestible_type": "FOOD",
@@ -292,7 +293,7 @@
     "quench": 3,
     "healthy": 30,
     "calories": 130,
-    "description": "A weird looking green fruit with remarkable health benefits.",
+    "description": "A weird looking green fruit with remarkable health.",
     "price": 400,
     "material": "fruit",
     "volume": 1,

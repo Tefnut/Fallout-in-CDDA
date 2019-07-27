@@ -83,7 +83,7 @@
 	"epower": -400,
     "item": "television",
     "difficulty": 2,
-    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER", "CAMERA_CONTROL", "DOME_LIGHT" ],
+    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "ENABLED_DRAINS_EPOWER", "OBSTACLE", "CAMERA_CONTROL", "DOME_LIGHT" ],
     "breaks_into": "ig_vp_device"
   },
   
@@ -102,96 +102,9 @@
     "bonus": 80,
     "item": "radio_atomic",
     "difficulty": 2,
-    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "CAMERA_CONTROL", "DOME_LIGHT" ],
+    "flags": [ "STEREO", "TOOL_SCREWDRIVER", "OBSTACLE", "CAMERA_CONTROL", "DOME_LIGHT" ],
     "breaks_into": "ig_vp_device"
   },
-  
-  
-  
-  {
-    "abstract": "nuka_engine",
-    "copy-from": "engine_combustion",
-    "type": "vehicle_part",
-    "fuel_type": "diesel",
-    "fuel_options": [ "cola_nuka", "cola_newka", "cola_nuka_quantum" ],
-    "cold_affects_start": true,
-    "m2c": 65,
-    "//": "40% energy efficiency",
-    "extend": { "flags": [ "E_COLD_START" ] },
-    "description": "An engine powered by Nuka Cola. How strange."
-  },
-  
-  {
-    "id": "nuka_engine_i6",
-    "copy-from": "nuka_engine",
-    "type": "vehicle_part",
-    "item": "i6_nuka",
-    "difficulty": 4,
-    "durability": 400,
-    "epower": -350,
-    "power": 223800,
-    "energy_consumption": 559500,
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 30, 40 ] },
-      { "item": "steel_chunk", "count": [ 30, 40 ] },
-      { "item": "scrap", "count": [ 30, 40 ] }
-    ]
-  },
-  
-  {
-    "id": "nuka_engine_v6",
-    "copy-from": "nuka_engine",
-    "type": "vehicle_part",
-    "item": "v6_nuka",
-    "difficulty": 4,
-    "durability": 400,
-    "epower": -250,
-    "power": 149200,
-    "energy_consumption": 373000,
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 30, 40 ] },
-      { "item": "steel_chunk", "count": [ 30, 40 ] },
-      { "item": "scrap", "count": [ 30, 40 ] }
-    ]
-  },
-  {
-    "id": "nuka_engine_v8",
-    "copy-from": "nuka_engine",
-    "type": "vehicle_part",
-    "item": "v8_nuka",
-    "difficulty": 4,
-    "durability": 400,
-    "epower": -350,
-    "power": 242450,
-    "energy_consumption": 606250,
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 30, 40 ] },
-      { "item": "steel_chunk", "count": [ 30, 40 ] },
-      { "item": "scrap", "count": [ 30, 40 ] }
-    ]
-  },
-  {
-    "id": "nuka_engine_v12",
-    "copy-from": "nuka_engine",
-    "type": "vehicle_part",
-    "item": "v12_nuka",
-    "difficulty": 7,
-    "durability": 600,
-    "epower": -400,
-    "power": 447600,
-    "energy_consumption": 1119000,
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 45, 58 ] },
-      { "item": "steel_chunk", "count": [ 45, 58 ] },
-      { "item": "scrap", "count": [ 45, 58 ] }
-    ]
-  },
-  
-  
-  
-  
-  
-  
   
   
    {

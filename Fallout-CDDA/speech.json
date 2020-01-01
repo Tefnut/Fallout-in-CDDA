@@ -102,5 +102,12 @@
         "speaker" : "mon_protectron_fisto",
         "sound" : "\"Let me fist you.\"",
         "volume" : 40
+    },
+	
+	{
+        "type" : "speech",
+        "speaker" : "mon_mi_go",
+        "sound" : "\"Thank you so much for continued interest.\"",
+        "volume" : 40
     }
 ]

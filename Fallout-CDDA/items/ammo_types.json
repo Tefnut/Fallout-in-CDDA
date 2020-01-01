@@ -1,10 +1,5 @@
 [
-  {
-    "id": "10mm",
-    "name": "10mm Auto",
-    "default": "10mm",
-    "type": "ammunition_type"
-  },
+
   
     {
     "id": "5mm",

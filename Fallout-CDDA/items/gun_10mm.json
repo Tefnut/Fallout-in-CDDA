@@ -15,7 +15,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "black",
-    "ammo": "10mm",
+    "ammo": "40",
     "skill": "pistol",
     "ranged_damage": 1,
     "dispersion": 480,
@@ -33,7 +33,7 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "10mm", [ "colt6250mag" ] ] ]
+    "magazines": [ [ "40", [ "colt6250mag" ] ] ]
   },
   
    {
@@ -52,7 +52,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "black",
-    "ammo": "10mm",
+    "ammo": "40",
     "skill": "pistol",
     "ranged_damage": 2,
     "dispersion": 240,
@@ -70,7 +70,7 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "10mm", [ "colt6250mag" ] ] ]
+    "magazines": [ [ "40", [ "colt6250mag" ] ] ]
   },
   
    {
@@ -89,7 +89,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",
-    "ammo": "10mm",
+    "ammo": "40",
     "skill": "smg",
     "ranged_damage": 2,
     "dispersion": 480,
@@ -108,7 +108,7 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 1,
-    "magazines": [ [ "10mm", [ "10mmsmgmag" ] ] ]
+    "magazines": [ [ "40", [ "10mmsmgmag" ] ] ]
   },
   
   {
@@ -125,7 +125,7 @@
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "white",
-    "ammo": "10mm",
+    "ammo": "40",
     "skill": "smg",
     "dispersion": 260,
     "durability": 8,
@@ -141,7 +141,7 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": 2,
-    "magazines": [ [ "10mm", [ "p90cmag" ] ]	]
+    "magazines": [ [ "40", [ "p90cmag" ] ]	]
   },
   
   {
@@ -159,7 +159,7 @@
     "material": "hardsteel",
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10mm",
+    "ammo": "40",
     "skill": "rifle",
     "ranged_damage": 6,
     "dispersion": 200,
@@ -170,7 +170,7 @@
       [ "DEFAULT", "low auto", 15 ],
       [ "AUTO", "high auto", 30 ]
     ],
-    "magazines": [ [ "10mm", [ "10mmgatlingmag", "10mmgatlingmagxl"] ] ],
+    "magazines": [ [ "40", [ "10mmgatlingmag", "10mmgatlingmagxl"] ] ],
     "flags": [ "NEVER_JAMS"]
   }
 ]

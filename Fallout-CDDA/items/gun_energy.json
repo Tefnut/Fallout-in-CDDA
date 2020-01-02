@@ -15,6 +15,21 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1,
     "skill": "pistol",
     "ranged_damage": 25,
     "range": 30,
@@ -45,6 +60,21 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1,
     "skill": "pistol",
     "ranged_damage": 25,
 	    "pierce": 40,
@@ -76,6 +106,21 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 2,
     "skill": "pistol",
     "ranged_damage": 20,
     "range": 30,
@@ -106,6 +151,21 @@
     "ammo_effects": [ "LASER" ],
     "flags": [ "MODE_BURST" ],
     "ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1,
     "skill": "pistol",
     "ranged_damage": 20,
     "range": 30,
@@ -167,12 +227,27 @@
     "symbol": "(",
     "color": "yellow",
     "name": "AER9 Laser Rifle",
-    "description": "A AER9 Lase Rifle. Not the top model in service, but it's high durability and reliability renders it far more popular than the finnicky AEP12.",
+    "description": "A AER9 Lase Rifle. Not the top model in service, but it's high durability and reliability renders it far more popular than the finnicky AEP12, while the use of batteries over UPS makes it simpler for the laser user in a pinch.",
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 42,
+ "flags": [ "NEVER_JAMS"],
+"ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 4,
     "skill": "rifle",
     "weight": 2950,
     "volume": 12,
@@ -208,8 +283,23 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "SHOT", "NO_UNLOAD" ],
-    "ups_charges": 126,
+"flags": [ "NEVER_JAMS", "SHOT"],
+"ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1,
     "skill": "shotgun",
     "weight": 2950,
     "volume": 8,
@@ -245,8 +335,23 @@
     "price": 1600000,
     "material": [ "steel", "plastic" ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_AMMO", "NEVER_JAMS", "NO_UNLOAD" ],
-    "ups_charges": 63,
+"flags": [ "NEVER_JAMS"],
+"ammo": "battery",
+	"magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well":2,
     "skill": "rifle",
     "weight": 2950,
     "volume": 12,

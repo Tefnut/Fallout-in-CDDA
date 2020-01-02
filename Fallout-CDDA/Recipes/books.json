@@ -238,5 +238,23 @@
     "intelligence": 3,
     "time": 30,
     "fun": -1
+  },
+  
+  {
+    "id": "holybook_krivbeknih",
+    "type": "BOOK",
+    "name": { "str": "Krivbeknih", "str_pl": "copies of Krivbeknih" },
+    "description": "This book doesn't feel right... It seems to be a holy book, but you can't pronounce most of the words... Its surprisingly heavy.",
+    "weight": "892 g",
+    "volume": "750 ml",
+    "price": 550,
+    "price_postapoc": 550,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "black",
+    "intelligence": 10,
+    "time": "10 m",
+    "fun": -1,
+    "flags": [ "INSPIRATIONAL" ]
   }
 ]

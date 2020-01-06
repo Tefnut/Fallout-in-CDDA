@@ -253,7 +253,8 @@
       [ "spear_fallout_replica", 100 ],
 	        [ "vault_knife", 100 ],
 	        [ "spear_fallout", 50 ],
-			[ "super_sledge", 5 ]
+			[ "gloves_boxing", 100 ],
+			[ "gloves_boxing_plated", 5 ]
     ]
   },
   
@@ -263,6 +264,15 @@
     "//": "melee weapons that rarely saw use pre-cataclysm, either due to being too brutal for military use, or just being impractical.",
     "items": [
 	        [ "spear_fallout", 100 ],
+			[ "machete_gladius", 100 ],
+			[ "flagstaff", 10 ],
+			[ "sword_revolutionary", 100 ],
+			[ "sword_chinese", 100 ],
+			[ "sword_chinese_shock", 1 ],
+			[ "meat_hook_claws", 100 ],
+			[ "gloves_boxing_plated", 100 ],
+			[ "gloves_boxing_goldplated", 10 ],
+			[ "gloves_boxing_doubleplated", 1 ],
 			[ "super_sledge", 50 ]
     ]
   },
@@ -306,7 +316,7 @@
 			[ "mask_pint_magic", 1 ],
 			[ "suit_benny", 5 ],
 			[ "scrubs_bigmt", 5 ],
-			[ "dress_shirt_ncr", 50 ],
+			[ "dress_shirt_NCR", 50 ],
 			[ "jeans_ncr", 50 ],
 			[ "ncr_armor", 25 ],
 			[ "armor_legate", 1 ],
@@ -398,6 +408,36 @@
     ]
   },
   
+  
+  {
+    "type" : "item_group",
+    "id" : "alien_gear_fallout",
+    "//" : "Zetan equipment.",
+    "items": [
+      ["zetan_rifle", 100],
+	  ["zetan_smg", 100],
+	  ["plasma_zetan", 100],
+	  ["zetan_pistol", 50],
+	  ["zetan_pistol_fire", 25],
+	  ["zetan_pistol_shot", 25],
+	  ["zetan_cannon", 10]
+
+    ]
+  },
+  
+  {
+    "type" : "item_group",
+    "id" : "alien_junk_fallout",
+    "//" : "Zetan scrap.",
+    "items": [
+      ["plasma_zetan", 100],
+	  ["scrap_zetan", 100],
+	  [ "painting_fuzzy", 50 ],
+	  ["zetan_sheet", 10],
+	  ["plasma_zetan", 25]
+    ]
+  },
+  
         {
     "type" : "item_group",
     "id" : "books_fallout_common",
@@ -405,16 +445,30 @@
     "items": [
       ["jerky_vendor", 100],
 	  ["scout_guide", 100],
-	  	  ["grognakcomic", 100],
-		  	  ["antagonizercomic", 100],
-			  	  ["chaingangcomic", 100],
-				  	  ["shroudcomic", 100],
-					  	  ["mantamancomic", 100],
+	  ["grognakcomic", 100],
+	  ["antagonizercomic", 100],
+	  ["chaingangcomic", 100],
+	  ["shroudcomic", 100],
+	  ["mantamancomic", 100],
+	  ["mag_comic_fantoma", 100],
+	  ["mag_comic_police", 100],
+	  ["mag_unstoppables", 100],
+	  ["mag_astounding", 100],
+	  ["mag_chivalry", 100],
+	  ["mag_catspaw", 100],
+	  ["mag_pugilism", 75],
 	  ["electronics_deans", 75],
+	  ["drivingzen", 75],
+	  ["tricksandtraps", 75],
 	  ["totalhack", 75],
 	  ["electronics_deans_vault", 50],
-	  ["gunrunnerbook", 25],
-	  ["wastelandgunsmith", 25],
+	  ["gunrunnerbook", 5],
+	  ["wastelandgunsmith", 5],
+	  ["wasteland_survival_guide", 5],
+	  ["manual_boxing_newreno", 5],
+	  ["manual_newreno", 5],
+	  ["holybook_fbible", 5],
+	  ["holybook_hintbook", 1],
 	  ["holybook_krivbeknih", 1]
 
     ]
@@ -533,6 +587,14 @@
 	
     ]
 	}
-  
- 
+	
+	
+	
+	
 ]
+	
+	
+	
+	
+	
+	

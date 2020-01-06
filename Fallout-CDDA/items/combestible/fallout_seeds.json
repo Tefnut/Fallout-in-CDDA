@@ -72,7 +72,28 @@
     "weight": 5,
     "stack_size": 40,
     "seed_data": { "plant_name": "Punga Plant", "fruit": "fruit_punga", "byproducts": [ "withered" ], "grow": "3 days" }
+  },
+  
+  {
+    "id": "seed_cactus_barrel",
+    "copy-from": "seed_fruit",
+    "type": "COMESTIBLE",
+    "name": "barrel cactus seeds",
+    "name_plural": "barrel cactus seeds",
+    "description": "Some barrel cactus seeds.",
+    "seed_data": { "plant_name": "barrel cactus", "fruit": "fruit_cactus_barrel", "byproducts": [ "withered" ], "grow": "91 days" }
+  },
+
+
+ {
+    "id": "seed_cactus_prickly",
+    "copy-from": "seed_fruit",
+    "type": "COMESTIBLE",
+    "name": "prickly pear seeds",
+    "name_plural": "prickly pear seeds",
+    "description": "Some prickly pear cactus seeds.",
+    "seed_data": { "plant_name": "prickly pear cactus", "fruit": "fruit_cactus_barrel", "byproducts": [ "withered" ], "grow": "91 days" }
   }
-
-
+  
+  
 ]

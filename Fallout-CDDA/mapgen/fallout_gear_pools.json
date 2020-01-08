@@ -581,6 +581,16 @@
 	[ "condom_jimmy_red", 33 ],
 	[ "flask_vault", 100 ],
 	
+	[ "iv_mutagen_fev", 1],
+	
+	[ "45boxmag", 10 ],
+	[ "22boxmag", 10 ],
+	[ "makeshift_revolver_pack", 10 ],
+	[ "makeshift_lever_pack", 10 ],
+	[ "makeshift_bolt_pack", 10 ],
+	[ "makeshift_gatling_pack", 10 ],
+	
+	
 	
 	[ "bottle_plastic_nukadark", 10 ],
 	[ "bag_canvas_westtek_nylon", 10 ]

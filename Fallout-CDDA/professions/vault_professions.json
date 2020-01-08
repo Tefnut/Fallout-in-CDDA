@@ -36,7 +36,7 @@
     "points": 4,
 	"skills": [ { "level": 2, "name": "melee" }, {"level":2, "name":"bashing"}, {"level":2, "name":"mechanics"} ],
     "items": {
-      "both": [ "jumpsuit_vault_13", "socks", "boots_rubber", "vault_knife", "water_clean", "matches", "colt6250", "colt6250mag", "10mm", "bat", "cola_nuka", "cola_nuka_quantum", "backpack", "holster", "bandana", "jacket_leather" ],
+      "both": [ "jumpsuit_vault_13", "socks", "boots_rubber", "vault_knife", "water_clean", "matches", "colt6250", "colt6250mag", "10mm", "bat", "cola_nuka", "cola_nuka_quantum", "backpack", "holster", "bandana", "jacket_leather_tunnel" ],
 	      "entries": [
 		             [ { "item": "sheath", "contents-item": "vault_kmofe" } ]
         ],

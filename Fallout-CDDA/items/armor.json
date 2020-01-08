@@ -352,8 +352,8 @@
   {
     "id": "jumpsuit_enclave",
     "type": "ARMOR",
-    "name": "jumpsuit",
-    "description": "A black jumpsuit worn by Enclave personel. Its not very warm, and is meant to be worn under their armor..",
+    "name": "Enclave jumpsuit",
+    "description": "A black jumpsuit worn by Enclave personel. Its not very warm, and is meant to be worn under their armor.",
     "weight": "610 g",
     "volume": "3500 ml",
     "price": 8900,
@@ -365,9 +365,10 @@
     "covers": [ "LEGS", "ARMS", "TORSO" ],
     "coverage": 95,
     "encumbrance": 2,
-    "storage": "2 L",
+    "storage": "6 L",
     "warmth": 5,
-    "material_thickness": 1,
+    "material_thickness": 2,
+    "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS" ]
   },
   
@@ -389,7 +390,7 @@
     "encumbrance": 10,
     "storage": "3500 ml",
     "warmth": 50,
-    "material_thickness": 3,
+    "material_thickness": 5,
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "HOOD", "OUTER", "WATERPROOF" ]
   },
@@ -412,7 +413,7 @@
     "encumbrance": 11,
     "storage": "2500 ml",
     "warmth": 50,
-    "material_thickness": 3,
+    "material_thickness": 5,
     "valid_mods": [ "steel_padded" ],
     "flags": [ "VARSIZE", "POCKETS", "WATERPROOF", "OUTER" ]
   },

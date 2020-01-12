@@ -19,7 +19,7 @@
     "dispersion": 100,
     "durability": 8,
     "barrel_length": 2,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], ["sling", 1], [ "sights", 1 ] ],
     "magazines": [
       [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
@@ -45,7 +45,7 @@
     "dispersion": 100,
     "durability": 8,
     "barrel_length": 1,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], ["sling", 1], [ "sights", 1 ] ],
     "magazines": [
       [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
@@ -72,7 +72,7 @@
     "durability": 10,
     "barrel_length": 3,
 	  "built_in_mods": [ "rifle_scope", "suppressor", "recoil_stock"],
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], ["sling", 1], [ "sights", 1 ] ],
     "magazines": [
       [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
@@ -98,7 +98,7 @@
     "dispersion": 100,
     "durability": 8,
     "barrel_length": 3,
-    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sights", 1 ] ],
+    "valid_mod_locations": [ [ "accessories", 4 ], [ "barrel", 1 ], [ "bore", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "sling", 1], [ "sights", 1 ] ],
     "magazines": [
       [ "223", [ "rangemastermag", "rangemastermag2", "survivor223mag","stanag30", "stanag10", "stanag50" ] ]
     ]
@@ -160,5 +160,43 @@
       [ "223", [ "stanag30", "stanag10", "stanag50", "survivor223mag", "rangemastermag", "rangemastermag2" ] ],
       [ "308", [ "g3mag", "g3bigmag" ] ]
     ]
+  },
+  
+  {
+    "id": "rf2076",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": "Derringer RF2076",
+    "description": "A throwback to water-cooled machine guns of old, the Derringer RF2076 is a side-loading light machine gun. Its incredibly bulky, meant to be used in power armor. It can, however, be wielded without power armor.",
+    "weight": "7330 g",
+    "volume": "6 L",
+    "price": 750000,
+    "to_hit": -1,
+    "bashing": 16,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "223",
+	"ranged_damage": 1,
+    "dispersion": 150,
+    "durability": 8,
+    "min_cycle_recoil": 1350,
+    "reload": 200,
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 4 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [ [ "223", [ "belt223", "rf2076mag", "rf2076drummag" ] ] ]
   }
 ]

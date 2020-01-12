@@ -211,6 +211,22 @@
   },
   
   {
+    "id": "mounted_rf2076",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": "mounted RF2076",
+    "item": "rf2076",
+    "color": "dark_gray",
+    "broken_color": "dark_gray",
+    "difficulty": 4,
+    "breaks_into": [ { "item": "rf2076", "prob": 100 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 4 ], [ "rifle", 1 ] ], "time": 10000 },
+      "removal": { "skills": [ [ "mechanics", 2 ] ] }
+    }
+  },
+  
+  {
     "id": "mounted_bigbazooka",
     "copy-from": "turret",
     "type": "vehicle_part",

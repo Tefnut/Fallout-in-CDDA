@@ -122,7 +122,9 @@
 	  [ "brush_gun", 75 ],
 	  [ "ak112", 50 ],
 	  [ "bozar", 50 ],
+	  [ "rf2076", 50 ],
 	  [ "wattz_2000", 50 ],
+	  [ "amr50", 25 ], 
 	  [ "cowboy_repeater_longue", 10 ],
 	  [ "varmint_rifle_ratslayer", 10 ],
 	  [ "brush_gun_medicine", 10 ]
@@ -190,13 +192,13 @@
     "items": [
 	  [ "l30", 100 ],
 	  [ "cz53minigun", 100 ],
-	  [ "bozar", 50 ],  
+	  [ "bozar", 50 ],	  
 	  [ "avenger", 50 ],
 	  [ "vindicator", 50 ],
 	  [ "grenademg", 50 ],
 	  [ "10mmgatling", 50 ],
 	  [ "rockwell_bigbazooka", 50 ],
-	  [ "broadsider", 50 ]
+	  [ "broadsider", 20 ]
     ]
   },
   

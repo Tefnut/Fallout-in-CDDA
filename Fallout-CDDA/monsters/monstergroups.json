@@ -31,7 +31,12 @@
 	  { "monster" : "mon_deathclaw_mother", "freq" : 1, "cost_multiplier" : 0 },
       { "monster" : "mon_deathclaw_young", "freq" : 5, "cost_multiplier" : 0, "pack_size" : [2,3] },
       { "monster" : "mon_deathclaw_albino_young", "freq" : 5, "cost_multiplier" : 0, "pack_size" : [2,3] },
-      { "monster" : "mon_deathclaw_glowing_young", "freq" : 5, "cost_multiplier" : 0, "pack_size" : [2,3] }		  
+      { "monster" : "mon_deathclaw_glowing_young", "freq" : 5, "cost_multiplier" : 0, "pack_size" : [2,3] },
+	  { "monster" : "mon_eyebot_enclave", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] }, 
+	  { "monster" : "mon_eyebot_minutemen", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_gnr", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_mrnewvegas", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_gnr_numbers", "freq" : 1 , "cost_multiplier" : 10, "pack_size" : [1,2] }
     ]
   },
 
@@ -87,7 +92,12 @@
 	  { "monster": "mon_protectron_fire", "freq": 250, "cost_multiplier": 1 },
 	  { "monster": "mon_protectron_wattz", "freq": 50, "cost_multiplier": 1 },
 	  { "monster": "mon_protectron_takahashi", "freq": 50, "cost_multiplier": 1 },
-	  { "monster": "mon_protectron_subway", "freq": 50, "cost_multiplier": 1 }
+	  { "monster": "mon_protectron_subway", "freq": 50, "cost_multiplier": 1 },
+	  { "monster" : "mon_eyebot_enclave", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] }, 
+	  { "monster" : "mon_eyebot_minutemen", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_gnr", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_mrnewvegas", "freq" : 20 , "cost_multiplier" : 0, "pack_size" : [1,2] },
+	  { "monster" : "mon_eyebot_gnr_numbers", "freq" : 1 , "cost_multiplier" : 10, "pack_size" : [1,2] }
     ]
   }
   

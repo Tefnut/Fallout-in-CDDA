@@ -182,7 +182,7 @@
     "color": "dark_gray",
     "name": "Rockwell BigBazooka",
     "name_plural": "Rockwell BigBazooka",
-    "description": "A Rockwell BigBazooka rocket launcher. With the deluxe 3 lb. trigger. Fires BigBazooka Rockets",
+    "description": "A Rockwell BigBazooka rocket launcher, with the deluxe 3 lb. trigger. Fires BigBazooka Rockets",
     "price": 2900000,
     "material": "steel",
     "flags": [ "MODE_BURST", "BACKBLAST", "NEVER_JAMS" ],
@@ -198,6 +198,32 @@
     "reload": 600,
     "loudness": 200,
     "valid_mod_locations": [ [ "accessories", 4 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "sights", 1 ] ]
+  },
+  
+  {
+    "id": "amr50",
+    "copy-from": "rifle_base",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": "Gun Runner AMR-50",
+    "name_plural": "Gun Runner AMR-50",
+    "description": "Baed off the PGM Hecate II, this baby is one of the heaviest hitters, and best sellers, in the Gun Runners' Arsenal.",
+    "weight": "12602 g",
+    "volume": "3500 ml",
+    "price": 1483300,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": "steel",
+    "ammo": "50",
+    "range": 100,
+    "ranged_damage": 5,
+    "dispersion": 110,
+    "durability": 10,
+    "barrel_length": 6,
+    "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
+    "magazine_well": 1,
+    "magazines": [ [ "50", [ "amr50mag" ] ] ],
+    "flags": [ "NEVER_JAMS" ]
   }
 
 ]

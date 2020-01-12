@@ -30,5 +30,39 @@
     "capacity": 20,
     "reliability": 8,
     "flags": [ "MAG_COMPACT" ]
+  },
+  
+  {
+    "id": "rf2076mag",
+    "type": "MAGAZINE",
+    "name": "Derringer RF2076 magazine",
+    "description": "A compact 30-round magazine for the Derringer RF2076.",
+    "weight": 100,
+    "volume": 2,
+    "price": 5000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "223",
+    "capacity": 30,
+    "reliability": 9,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  
+  {
+    "id": "rf2076drummag",
+    "type": "MAGAZINE",
+    "name": "Derringer RF2076 drum",
+    "description": "A compact 80-round drum for the Derringer RF2076.",
+    "weight": 100,
+    "volume": 5,
+    "price": 5000,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "223",
+    "capacity": 80,
+    "reliability": 9,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]

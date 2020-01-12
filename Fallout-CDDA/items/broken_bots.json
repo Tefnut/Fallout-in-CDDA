@@ -130,7 +130,101 @@
     "cutting": 6,
     "to_hit": -3,
     "flags": [ "TRADER_AVOID" ]
-  }
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "broken_eyebot_enclave",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "broken Eyebot",
+    "category": "other",
+    "description": "A busted up eyebot, no longer playing the radio tunes. You could fix it up, and change the stations.",
+    "price": 30000,
+    "price_postapoc": 1000,
+    "material": [ "steel", "plastic" ],
+    "weight": 140000,
+    "volume": "30000 ml",
+    "bashing": 6,
+    "cutting": 6,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID" ]
+  },
  
+ {
+    "type": "GENERIC",
+    "id": "broken_eyebot_minutemen",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "broken Eyebot",
+    "category": "other",
+    "description": "A busted up eyebot, no longer playing the radio tunes. You could fix it up, and change the stations.",
+    "price": 30000,
+    "price_postapoc": 1000,
+    "material": [ "steel", "plastic" ],
+    "weight": 140000,
+    "volume": "30000 ml",
+    "bashing": 6,
+    "cutting": 6,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID" ]
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "broken_eyebot_mrnewvegas",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "broken Eyebot",
+    "category": "other",
+    "description": "A busted up eyebot, no longer playing the radio tunes. You could fix it up, and change the stations.",
+    "price": 30000,
+    "price_postapoc": 1000,
+    "material": [ "steel", "plastic" ],
+    "weight": 140000,
+    "volume": "30000 ml",
+    "bashing": 6,
+    "cutting": 6,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID" ]
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "broken_eyebot_gnr",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "broken Eyebot",
+    "category": "other",
+    "description": "A busted up eyebot, no longer playing the radio tunes. You could fix it up, and change the stations.",
+    "price": 30000,
+    "price_postapoc": 1000,
+    "material": [ "steel", "plastic" ],
+    "weight": 140000,
+    "volume": "30000 ml",
+    "bashing": 6,
+    "cutting": 6,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID" ]
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "broken_eyebot_gnr_numbers",
+    "symbol": ",",
+    "color": "light_gray",
+    "name": "broken Eyebot",
+    "category": "other",
+    "description": "A busted up eyebot, no longer playing the radio tunes. You could fix it up, and change the stations.",
+    "price": 30000,
+    "price_postapoc": 1000,
+    "material": [ "steel", "plastic" ],
+    "weight": 140000,
+    "volume": "30000 ml",
+    "bashing": 6,
+    "cutting": 6,
+    "to_hit": -3,
+    "flags": [ "TRADER_AVOID" ]
+  }
  
 ]

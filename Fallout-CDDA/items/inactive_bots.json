@@ -170,5 +170,97 @@
       "moves": 60,
       "place_randomly": true
     }
+  },
+  
+  {
+    "id": "bot_eyebot_enclave_inactive",
+    "type": "TOOL",
+    "name": "inactive Enclave Eyebot",
+    "description": "This eyebot looks like it'll work. Activate it for a patriotic radio.",
+    "weight": 5400,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_eyebot_enclave",
+      "friendly_msg": "after a short boot sequence, the eyebot stirrs to life and begins its patriotic tunes.",
+      "moves": 60,
+      "place_randomly": true
+    }
+  },
+  
+  {
+    "id": "bot_eyebot_minutemen_inactive",
+    "type": "TOOL",
+    "name": "inactive Minuteman Eyebot",
+    "description": "This eyebot looks like it'll work. Turn it on to tune into Radio Freedom.",
+    "weight": 5400,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_eyebot_minutemen",
+      "friendly_msg": "after a short boot sequence, the eyebot stirrs to life and begins its somber violin music.",
+      "moves": 60,
+      "place_randomly": true
+    }
+  },
+  
+  {
+    "id": "bot_eyebot_mrnewvegas_inactive",
+    "type": "TOOL",
+    "name": "inactive New Vegas Eyebot",
+    "description": "This eyebot looks like it'll work. Turn it on to tune into Radio New Vegas.",
+    "weight": 5400,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_eyebot_enclave",
+      "friendly_msg": "after a short boot sequence, the eyebot stirrs to life and begins to play Johnny Guitar.",
+      "moves": 60,
+      "place_randomly": true
+    }
+  },
+  
+  {
+    "id": "bot_eyebot_gnr_inactive",
+    "type": "TOOL",
+    "name": "inactive GNR Eyebot",
+    "description": "This eyebot looks like it'll work. Turn it on for a dose of GNR, featuring Three Dog!",
+    "weight": 5400,
+    "volume": 3,
+    "price": 60000,
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_eyebot_enclave",
+      "friendly_msg": "after a short boot sequence, the eyebot stirrs to life and Butcher Pete starts to play.",
+      "moves": 60,
+      "place_randomly": true
+    }
   }
 ]

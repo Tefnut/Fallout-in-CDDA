@@ -474,6 +474,16 @@
     "book_data": { "martial_art": "style_chosenone" }
   },
   
+    {
+    "id": "manual_gecko",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": "Tales of a Klamath Gecko Hunter",
+    "name_plural": "Tales of a Klamath Gecko Hunter",
+    "description": "A complete guide to Gecko Hunting.",
+    "book_data": { "martial_art": "style_gecko" }
+  },
+  
   {
     "id": "mag_catspaw",
     "type": "BOOK",

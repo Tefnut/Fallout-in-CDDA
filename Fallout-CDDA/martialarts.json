@@ -108,7 +108,86 @@
 
  ],
 	"weapons": [ "gloves_boxing_goldplated", "gloves_boxing_doubleplated", "gloves_boxing_plated", "gloves_boxing" ]
-  }
+  },
  
+ 
+ 
+ 
+ 
+ 
+ 
+   {
+    "type": "martial_art",
+    "id": "style_gecko",
+    "name": "Gecko Hunting",
+    "description": "A somewhat primative martial art, Gecko Hunting was developed in Klamath to avoid a gecko's deadly bite and get them",
+    "initiate": [ "You raise your spear and prepare for a great hunt.", "%s raises their spear menacingly." ],
+    "learn_difficulty": 3,
+    "primary_skill": "stabbing",
+    "strictly_melee": true,
+    "static_buffs": [
+      {
+        "id": "buff_sojutsu_static",
+        "name": "Gecko Hunting Stance",
+        "description": "You keep at the ready to avoid .\n\Increased dodge.",
+        "melee_allowed": true,
+        "flat_bonuses": [ [ "dodge", 2.0 ] ]
+      }
+    ],
+    "ondodge_buffs": [
+      {
+        "id": "buff_sojutsu_onmove",
+        "name": "Kiting",
+        "description": "You have baited the attack, time for the kill.\n\x3 damage for a turn.",
+        "melee_allowed": true,
+        "buff_duration": 1,
+        "mult_bonuses": [ [ "damage", "bash", 3.0 ], [ "damage", "cut", 3.0 ], [ "damage", "stab", 3.0 ] ]
+      }
+    ],
+    "techniques": [ "tec_sojutsu_push", "tec_sojutsu_shove", "tec_sojutsu_trip" ],
+    "weapons": [
+      "glaive",
+      "halberd",
+      "halberd_fake",
+	  "spear_fallout",
+	  "spear_fallout_replica",
+      "ji",
+      "naginata",
+      "naginata_inferior",
+      "naginata_fake",
+      "long_pole",
+      "makeshift_halberd",
+      "pike",
+      "pike_inferior",
+      "pike_fake",
+      "pitchfork",
+      "qiang",
+      "spear_copper",
+      "spear_dory",
+      "spear_forked",
+      "spear_homemade_halfpike",
+      "spear_pipe",
+      "spear_knife",
+      "spear_knife_superior",
+      "spear_spike",
+      "spear_rebar",
+      "spear_steel",
+      "spear_survivor",
+      "spear_wood"
+    ]
+  },
+  
+  
+  
+    {
+    "type": "mutation",
+    "id": "MARTIAL_ARTSFA",
+    "name": "Wasteland Martial Artist",
+    "points": 2,
+    "description": "You have wandered the wastes and learned one of the many martial arts taught across the wastes.",
+    "starting_trait": true,
+    "initial_ma_styles": [ "style_gecko", "style_boxing_newreno", "style_chosenone" ],
+    "valid": false
+  }
  
 ]

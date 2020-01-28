@@ -105,7 +105,7 @@
     "id": "mutfruit_crunchy",
     "name": "Crunchy Mutfruit",
     "weight": 182,
-    "color": "purple",
+    "color": "red",
     "comestible_type": "FOOD",
     "symbol": "%",
     "quench": 3,

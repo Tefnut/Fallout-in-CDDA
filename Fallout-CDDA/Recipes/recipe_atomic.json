@@ -81,6 +81,68 @@
       [ [ "cable", 4 ] ],
       [ [ "plut_cell", 1 ] ]
     ]
+  },
+  
+    {
+    "result": "minifreezer_cargo",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 5 ],
+    "difficulty": 5,
+    "time": "180 m",
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ] ],
+    "using": [ [ "welding_standard", 50 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "cargo_rack", 1 ] ],
+      [ [ "condensor_coil", 1 ] ],
+      [ [ "evaporator_coil", 1 ] ],
+      [ [ "thermostat", 1 ] ],
+      [ [ "motor_tiny", 1 ] ],
+      [ [ "refrigerant_tank", 1 ] ],
+      [ [ "plastic_chunk", 10 ] ]
+    ]
+  },
+  
+      {
+    "result": "minifridge_cargo",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_VEHICLE",
+    "skill_used": "mechanics",
+    "skills_required": [ "fabrication", 5 ],
+    "difficulty": 5,
+    "time": "180 m",
+    "reversible": true,
+    "autolearn": false,
+    "book_learn": [ [ "textbook_mechanics", 5 ], [ "manual_mechanics", 5 ], [ "textbook_fabrication", 5 ] ],
+    "using": [ [ "welding_standard", 50 ] ],
+    "qualities": [
+      { "id": "HAMMER", "level": 2 },
+      { "id": "SAW_M", "level": 1 },
+      { "id": "DRILL", "level": 1 },
+      { "id": "SCREW", "level": 1 },
+      { "id": "WRENCH", "level": 1 }
+    ],
+    "components": [
+      [ [ "cargo_rack", 1 ] ],
+      [ [ "condensor_coil", 1 ] ],
+      [ [ "evaporator_coil", 1 ] ],
+      [ [ "thermostat", 1 ] ],
+      [ [ "motor_tiny", 1 ] ],
+      [ [ "refrigerant_tank", 1 ] ],
+      [ [ "plastic_chunk", 10 ] ]
+    ]
   }
   
 ]

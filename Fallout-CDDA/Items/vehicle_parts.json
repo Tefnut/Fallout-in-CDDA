@@ -32,6 +32,40 @@
         "insulation": 4
     },
 	
+	  {
+    "type": "GENERIC",
+    "id": "minifridge_cargo",
+    "name": "cargo fridge",
+    "description": "A heavy duty fridge, used for transporting meat and other perishables in trucks.",
+    "weight": "80000 g",
+    "to_hit": -4,
+    "color": "cyan",
+    "symbol": "]",
+    "material": [ "steel", "plastic" ],
+    "volume": "50 L",
+    "bashing": 2,
+    "category": "veh_parts",
+    "price": 40000,
+        "insulation": 2
+  },
+  
+  	  {
+    "type": "GENERIC",
+    "id": "minifreezer_cargo",
+    "name": "cargo freezer",
+    "description": "A heavy duty freezer, used for transporting fish, meat and other sensitive perishables in trucks.",
+    "weight": "80000 g",
+    "to_hit": -4,
+    "color": "cyan",
+    "symbol": "]",
+    "material": [ "steel", "plastic" ],
+    "volume": "50 L",
+    "bashing": 2,
+    "category": "veh_parts",
+    "price": 40000,
+        "insulation": 4
+  },
+	
 	    {
         "type":"GENERIC",
         "id" : "radio_atomic",

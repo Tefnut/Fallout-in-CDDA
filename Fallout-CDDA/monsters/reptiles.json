@@ -111,7 +111,6 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_gecko", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -243,7 +242,6 @@
     "flags": [
 	"ACIDPROOF",
 	"POISON",
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -308,9 +306,9 @@
     "death_function": ["NORMAL" ],
 		"upgrades": { "age_grow": 5, "into": "mon_deathclaw" },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
+	"DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
@@ -372,7 +370,6 @@
     "death_function": [ "NORMAL" ],
 			"upgrades": { "age_grow": 5, "into": "mon_deathclaw_mother" },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -436,7 +433,6 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 3 },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -501,9 +497,9 @@
     "death_function": ["NORMAL" ],
 		"upgrades": { "age_grow": 5, "into": "mon_deathclaw_albino" },
     "flags": [
-	"DOGFOOD",
       "SEES",
       "HEARS",
+	"DOGFOOD",
       "GOODHEARING",
       "SMELLS",
       "KEENNOSE",
@@ -565,7 +561,6 @@
     "death_function": [ "NORMAL" ],
 	    "reproduction": { "baby_egg": "egg_deathclaw", "baby_count": 3, "baby_timer": 10 },
     "flags": [
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -634,7 +629,6 @@
     "flags": [
 		"ACIDPROOF",
 	"POISON",
-	"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",
@@ -701,7 +695,6 @@
     "flags": [
 		"ACIDPROOF",
 	"POISON",
-		"DOGFOOD",
       "SEES",
       "HEARS",
       "GOODHEARING",

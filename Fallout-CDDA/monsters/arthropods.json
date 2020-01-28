@@ -93,7 +93,7 @@
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN" ],
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "BADVENOM", "CHITIN", "CLIMBS", "DOGFOOD" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "BADVENOM", "CHITIN", "CLIMBS" ]
   },
   {
     "id": "mon_radscorpion_small",
@@ -125,6 +125,6 @@
 	"upgrades": { "age_grow": 7, "into": "mon_radscorpion" },
     "anger_triggers": [ "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "CLIMBS", "DOGFOOD" ]
+    "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "CHITIN", "CLIMBS" ]
   }
 ]

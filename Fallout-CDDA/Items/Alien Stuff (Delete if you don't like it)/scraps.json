@@ -19,7 +19,7 @@
   {
     "type": "GENERIC",
     "id": "zetan_sheet",
-    "name": "sheet metal",
+    "name": "alien sheet metal",
     "description": "A thin sheet of flexible alien metal.",
     "weight": "600 g",
     "to_hit": -2,

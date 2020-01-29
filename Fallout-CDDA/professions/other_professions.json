@@ -3,7 +3,7 @@
     "type": "profession",
     "ident": "biker_khan",
     "name": "Great Khan",
-    "description": "You spent your life in the Great Khans gang; guns, Jet, and biking. Now the end is here, and you feel like keeping your life choices up.",
+    "description": "You spent your life in the Great Khans gang: guns, Jet, and biking. Now the end is here, and you feel like keeping your life choices up.",
     "points": 3,
     "skills": [ { "level": 2, "name": "driving" }, { "level": 2, "name": "mechanics" }, { "level": 4, "name": "cooking" } ],
     "items": {
@@ -90,7 +90,7 @@
     "type": "profession",
     "ident": "minuteman",
     "name": "Minuteman",
-    "description": "'Protect the people at a minute's notice.' That was the original idea. But now General Becker is a zombie, the minutemen are a scattered memory, and all the people you were trying to protect are dead.",
+    "description": "'Protect the people at a minute's notice.' That was the original idea. But now General Becker is a zombie, the Minutemen are a scattered memory, and all the people you were trying to protect are dead.",
     "points": 6,
     "skills": [
       { "level": 2, "name": "survival" },

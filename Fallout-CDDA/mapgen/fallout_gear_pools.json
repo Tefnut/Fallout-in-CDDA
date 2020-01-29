@@ -4,7 +4,6 @@
     "id": "ammo_pistol_fallout_common",
     "//": "Pistol ammo commonly owned by citizens and found in many locations.",
     "items": [
-    [ "10mm", 100 ],
 	[ "10mm_incendiary", 100 ],
 	[ "10mmhp", 100 ],
 	[ "10mmap", 100 ],
@@ -20,7 +19,7 @@
 	[ "357_magnum", 20 ],
 	[ "357_magnum_hp", 10 ],
 	[ "357_magnum_ap", 10],
-	[ "4570", 50]
+	[ "4570", 5]
 	
     ]
 	
@@ -185,7 +184,7 @@
     ]
   },
   
-        {
+    {
       "type": "item_group",
     "id": "guns_heavy_fallout",
     "//": "heavy weapons used by police and military forces.",
@@ -199,6 +198,17 @@
 	  [ "10mmgatling", 50 ],
 	  [ "rockwell_bigbazooka", 50 ],
 	  [ "broadsider", 20 ]
+    ]
+  },
+  
+  {
+      "type": "item_group",
+    "id": "guns_superheavy_fallout",
+    "//": "The biggest of big guns, the stuff you only find on tanks..",
+    "items": [
+	  [ "70mm_autocannon", 100 ],
+	  [ "tank_gun_dual", 100 ],
+	  [ "tank_gun_105", 10 ]
     ]
   },
   

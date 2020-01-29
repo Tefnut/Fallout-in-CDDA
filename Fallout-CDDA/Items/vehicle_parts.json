@@ -169,5 +169,18 @@
     "volume": 60,
     "price": 32000,
     "displacement": 1200
+  },
+  
+  
+    {
+    "id": "large_turbine_vertibird",
+    "copy-from": "motor_super",
+    "type": "ENGINE",
+    "name": "6000 hp electric motor",
+    "description": "A massive electric motor, used to power the XVBO2 Vertibird.  Known for its high rate of power consumption.",
+    "weight": "3164000 g",
+    "volume": "95 L",
+    "price": 960000,
+    "displacement": 11995
   }
 ]

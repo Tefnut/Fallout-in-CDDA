@@ -55,5 +55,24 @@
         "id" : "bbrocket",
         "name" : "Rockwell Bigbazooka Rocket",
         "default" : "bbrocket"
-    }
+    },
+	
+	  {
+    "type": "ammunition_type",
+    "id": "105mm",
+    "name": "105mm shell",
+    "default": "105mm_heat"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "140mm",
+    "name": "140mm shell",
+    "default": "140mm_heat"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "70mm",
+    "name": "70mm",
+    "default": "70mm_hedp"
+  }
 ]

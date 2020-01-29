@@ -72,5 +72,40 @@
     "symbol": "=",
     "color": "red",
     "damage_states": [ 0, 0 ]
+  },
+  
+  
+    {
+    "type": "GENERIC",
+    "id": "70mm_casing",
+	"color": "dark_gray",
+    "material": "steel",
+    "name": "70mm canister",
+    "description": "A canister from a spent 70mm shell.",
+    "volume": "1250 ml",
+    "weight": 20
+  },
+  {
+    "type": "GENERIC",
+    "id": "105mm_casing",
+    "name": "105mm canister",
+    "color": "dark_gray",
+    "description": "A large canister from a spent 105mm shell, now an expensive paperweight. You might find the stuff to reload it one day.",
+    "material": "steel",
+    "volume": "2500 ml",
+    "weight": 300
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "140mm_casing",
+    "color": "dark_gray",
+    "material": "steel",
+    "name": "140mm canister",
+    "description": "A large canister from a spent 140mm shell, now an expensive paperweight. You might find the stuff to reload it one day.",
+    "volume": "3750 ml",
+    "weight": 400
   }
+  
+  
 ]

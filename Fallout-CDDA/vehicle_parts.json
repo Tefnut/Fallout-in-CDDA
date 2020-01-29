@@ -253,11 +253,69 @@
     ]
   },
   
+  ,
+  
+    {
+    "id": "vertibird_rotor",
+    "copy-from": "engine_motor",
+    "type": "vehicle_part",
+    "item": "large_turbine_vertibird",
+    "durability": 400,
+    "epower": -10,
+    "power": 4500000,
+    "energy_consumption": 16000000,
+    "breaks_into": [
+      { "item": "alloy_plate", "count": [ 4, 6 ] },
+      { "item": "steel_lump", "count": [ 100, 120 ] },
+      { "item": "steel_chunk", "count": [ 100, 120 ] },
+      { "item": "scrap", "count": [ 100, 120 ] }
+    ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 12 ] ], "time": "60 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 7 ] ], "time": "30 m", "using": [ [ "vehicle_bolt", 1 ] ] },
+      "repair": { "skills": [ [ "mechanics", 10 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
+    },
+    "damage_reduction": { "all": 70 }
+  }
   
   
   
+    {
+    "type": "vehicle_part",
+    "id": "mounted_tank_105",
+    "copy-from": "turret",
+    "name": "105mm tank gun",
+    "range": 25,
+    "item": "tank_gun_105",
+    "size": 10,
+    "breaks_into": [ { "item": "tank_gun_105", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 2 ] ] } }
+  },
+  
+    {
+    "type": "vehicle_part",
+    "id": "mounted_70mm_autocannon",
+    "copy-from": "turret",
+    "name": "70mm bubble turret",
+    "range": 25,
+    "item": "70mm_autocannon",
+    "size": 50,
+    "breaks_into": [ { "item": "70mm_autocannon", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "rifle", 3 ] ] } }
+  },
   
   
+  {
+    "type": "vehicle_part",
+    "id": "mounted_tank_140mm",
+    "copy-from": "turret",
+    "name": "double-barreled 140mm tank gun",
+    "range": 25,
+    "item": "tank_gun_dual",
+    "size": 50,
+    "breaks_into": [ { "item": "tank_gun_dual", "prob": 50 } ],
+    "requirements": { "install": { "skills": [ [ "mechanics", 5 ], [ "launcher", 2 ] ] } }
+  },
   
   
    {
@@ -593,32 +651,5 @@
       "install": { "skills": [ [ "mechanics", 4 ], [ "launcher", 2 ] ], "time": 10000 },
       "removal": { "skills": [ [ "mechanics", 2 ] ] }
     }
-  },
-  
-  
-      {
-    "id": "vertibird_rotor",
-    "type": "vehicle_part",
-    "name": "Vertibird Rotor",
-    "item": "wheel_armor",
-    "location": "on_roof",
-    "symbol": "0",
-    "broken_symbol": "x",
-    "color": "green",
-    "difficulty": 4,
-    "durability": 800,
-	"power": 186500,
-    "energy_consumption": 160858,
-    "description": "A rotor from a vertibird. It's motor is built in.",
-	"noise_factor": 3,
-    "m2c": 90,
-    "fuel_type": "battery",
-    "damage_modifier": 50,
-    "breaks_into": [
-      { "item": "steel_lump", "count": [ 2, 3 ] },
-      { "item": "steel_chunk", "count": [ 2, 3 ] },
-      { "item": "scrap", "count": [ 2, 3 ] }
-    ],
-    "flags": [ "WHEEL", "STABLE", "STEERABLE", "ENGINE" ]
   }
 ]

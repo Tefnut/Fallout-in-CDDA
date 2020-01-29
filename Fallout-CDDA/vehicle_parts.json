@@ -253,8 +253,6 @@
     ]
   },
   
-  ,
-  
     {
     "id": "vertibird_rotor",
     "copy-from": "engine_motor",
@@ -276,7 +274,7 @@
       "repair": { "skills": [ [ "mechanics", 10 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
     "damage_reduction": { "all": 70 }
-  }
+  },
   
   
   

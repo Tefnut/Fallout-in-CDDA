@@ -41,7 +41,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": "14mm smg",
-    "description": "The TDI Vector is a submachine gun with a uniquely designed magazine that comes with the rear sights of the gun The magazine loads at the top due to such, much like the FN P90 and TDI vector.",
+    "description": "An SMG calibered in 14mm, based off the build of an old TDI vector, and enhanced by the Gun Runners.",
     "weight": 2600,
     "volume": 7,
     "price": 310000,

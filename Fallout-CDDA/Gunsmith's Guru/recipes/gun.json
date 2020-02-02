@@ -272,5 +272,83 @@
       [ [ "wooden_grip_handmade", 1 ] ],
 	  [ [ "metal_box_large", 1 ] ]
     ]
+  },
+  
+  
+  
+  {
+    "type": "recipe",
+    "result": "rifle_pump_308",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 1 ],
+    "difficulty": 3,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "barrel_rifled_long", 1 ] ], 
+	  [ [ "trigger_handmade_gun", 1 ] ],
+	  [ [ "mechanism_homemade_pump", 1 ] ],
+      [ [ "wooden_stock_handmade", 1 ] ],
+      [ [ "wooden_grip_handmade", 1 ] ] ]
+  },
+  
+    {
+    "type": "recipe",
+    "result": "rifle_pump_223",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 1 ],
+    "difficulty": 3,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "barrel_rifled_long", 1 ] ], 
+	  [ [ "trigger_handmade_gun", 1 ] ],
+	  [ [ "mechanism_homemade_pump", 1 ] ],
+      [ [ "wooden_stock_handmade", 1 ] ],
+      [ [ "wooden_grip_handmade", 1 ] ] ]
+  },
+  
+    {
+    "type": "recipe",
+    "result": "shotgun_pump_12",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 1 ],
+    "difficulty": 3,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "barrel_rifled_long", 1 ] ], 
+	  [ [ "trigger_handmade_gun", 1 ] ],
+	  [ [ "mechanism_homemade_pump", 1 ] ],
+      [ [ "wooden_stock_handmade", 1 ] ],
+      [ [ "wooden_grip_handmade", 1 ] ] ]
+  },
+  
+      {
+    "type": "recipe",
+    "result": "shotgun_pump_20",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 1 ],
+    "difficulty": 3,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+    "qualities": [ { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "barrel_rifled_long", 1 ] ], 
+	  [ [ "trigger_handmade_gun", 1 ] ],
+	  [ [ "mechanism_homemade_pump", 1 ] ],
+      [ [ "wooden_stock_handmade", 1 ] ],
+      [ [ "wooden_grip_handmade", 1 ] ] ]
   }
 ]

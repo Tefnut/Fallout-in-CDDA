@@ -4,7 +4,6 @@
     "type": "mutation_category",
     "id": "FEVMUTANT",
     "name": "Super Mutant",
-    "//": "24-36 pain, Scream,, -40 Morale, but two guaranteed mutations and 75% each for third and fourth",
     "threshold_mut": "THRESH_FEVMUTANT",
     "mutagen_message": "You feel your body changing, very painfully... But you hear a voice guiding you... Master?",
     "iv_message": "The master's voice beckons, and with glee, you inject yourself.",
@@ -210,7 +209,7 @@
     "valid": false,
     "cancels": [ "FLIMSY", "FLIMSY2", "FLIMSY3", "GLASSJAW" ],
     "social_modifiers": { "intimidate": 8 },
-    "hp_modifier": 1.0,
+    "hp_modifier": 1.5,
 	"movecost_obstacle_modifier": 1.25,
 	"category": [ "FEVMUTANT" ]
   }

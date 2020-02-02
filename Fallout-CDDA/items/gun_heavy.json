@@ -147,6 +147,27 @@
     "flags": [ "MOUNTED_GUN" ]
   },
   
+    {
+    "id": "25mmapw",
+    "copy-from": "launcher_base",
+    "looks_like": "m79",
+    "type": "GUN",
+    "name": "25mm Grenade APW",
+    "description": "A 6 shot 25mm grenade launcher manufactured by the Gun Runners.",
+    "weight": "2100 g",
+    "volume": "750 ml",
+    "price": 850000,
+    "to_hit": -3,
+    "bashing": 6,
+    "material": "steel",
+    "symbol": "(",
+    "ammo": "25mm",
+    "dispersion": 270,
+    "durability": 9,
+    "clip_size": 6,
+    "reload": 150
+  },
+  
   {
     "id": "broadsider",
     "type": "GUN",

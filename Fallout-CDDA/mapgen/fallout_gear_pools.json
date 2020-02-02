@@ -105,6 +105,7 @@
       [ "redryder", 100 ],
 	  [ "varmint_rifle", 100 ],
 	  [ "colt_rangemaster", 100 ],
+	  [ "r91", 100 ],
 	  [ "cowboy_repeater", 100 ],
 	  [ "dks501", 50 ],
 	  [ "brush_gun", 50 ]
@@ -123,10 +124,13 @@
 	  [ "bozar", 50 ],
 	  [ "rf2076", 50 ],
 	  [ "wattz_2000", 50 ],
-	  [ "amr50", 25 ], 
-	  [ "cowboy_repeater_longue", 10 ],
-	  [ "varmint_rifle_ratslayer", 10 ],
-	  [ "brush_gun_medicine", 10 ]
+	  [ "amr50", 25 ],
+      [ "carbine_assault", 25],
+      [ "carbine_marksman", 25],	  
+	  [ "type93", 5 ],
+	  [ "cowboy_repeater_longue", 1 ],
+	  [ "varmint_rifle_ratslayer", 1 ],
+	  [ "brush_gun_medicine", 1 ]
     ]
   },
   {
@@ -139,7 +143,6 @@
 	  [ "mauser_9mm", 75 ],
 	  [ "357_magnum_revolver", 75 ],
 	  [ "deagle_44", 50 ],
-	  [ "wattz_1000", 50 ],
 	  [ "thatgun", 25 ],
 	  [ "14mmpistol", 1 ]
     ]
@@ -151,13 +154,11 @@
     "//": "Pistols rarely used by anyone outside of the military, either due to their expensive nature or regulations..",
     "items": [
 	  [ "deagle_44", 100 ],
-	  [ "wattz_1000", 100 ],
 	  [ "thatgun", 75],
 	  [ "14mmpistol", 50 ],
 	  [ "revolver_ranger", 50 ],
-	  [ "wattz_1000_magneto", 25 ],
-	  [ "357_magnum_revolver_lucky", 5 ],
-	  [ "colt6250_weathered", 5 ]
+	  [ "357_magnum_revolver_lucky", 1 ],
+	  [ "colt6250_weathered", 1 ]
     ]
   },
   
@@ -192,6 +193,7 @@
 	  [ "l30", 100 ],
 	  [ "cz53minigun", 100 ],
 	  [ "bozar", 50 ],	  
+	  [ "25mmapw", 50 ],
 	  [ "avenger", 50 ],
 	  [ "vindicator", 50 ],
 	  [ "grenademg", 50 ],
@@ -240,7 +242,8 @@
     "items": [
       [ "10mmsmg", 100 ],
 	  [ "greasegun", 100 ],
-	  [ "tommygun", 50 ]
+	  [ "tommygun", 50 ],
+	  [ "22_smg", 50 ]
     ]
   },
   
@@ -251,6 +254,7 @@
     "items": [
       [ "tommygun", 100 ],
 	  [ "14mmsmg", 50 ],
+	  [ "22_smg", 100 ],
 	  [ "hk_p90c", 50 ],
 	  [ "laser_rcw", 50 ],
 	  [ "tommygun_silver", 5 ]
@@ -300,6 +304,12 @@
 	        [ "jumpsuit_vault_13_armored", 50 ],
 		    [ "jumpsuit_vault_13_utility", 50 ],
 			[ "armor_wasteplate", 25 ],
+			[ "armor_combat_light", 25 ],
+			[ "armor_combat_light_winter", 25 ],
+			[ "armor_combat_light_winter_medic", 25 ],
+			[ "helmet_combat_light", 25 ],
+		    [ "helmet_combat_light_winter", 25 ],
+	        [ "balclava_winter", 25 ],
 			[ "helm_nullifier", 1 ],
 			[ "jacket_leather_tunnel", 50 ],
 			[ "jacket_leather_king", 50 ],
@@ -333,6 +343,16 @@
 			[ "ncr_armor", 25 ],
 			[ "armor_legate", 1 ],
 			[ "helmet_legate", 1 ],
+			[ "armor_legion_recruit", 50],
+			[ "helmet_legion_recruit", 50],
+			
+			
+			[ "armor_legion_prime", 25],
+			[ "helmet_legion_prime", 25],			
+			
+			[ "armor_legion_veteran", 5],
+			[ "helmet_legion_veteran", 5],
+			
 			[ "hazmat_suit_ghost", 5 ],
 			[ "beret_recon", 25 ],
 			[ "helmet_fiend", 25 ],
@@ -601,6 +621,7 @@
 	[ "makeshift_revolver_pack", 10 ],
 	[ "makeshift_lever_pack", 10 ],
 	[ "makeshift_bolt_pack", 10 ],
+	[ "makeshift_pump_pack", 10 ],
 	[ "makeshift_gatling_pack", 10 ],
 	
 	

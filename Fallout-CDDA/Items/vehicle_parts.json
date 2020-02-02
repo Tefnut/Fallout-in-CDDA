@@ -98,6 +98,24 @@
   },
   
     {
+    "id": "wheel_monster",
+    "type": "WHEEL",
+    "category": "veh_parts",
+    "name": "wide wheel",
+    "description": "A colossal wheel used on monster trucks.",
+    "weight": "45200 g",
+    "volume": "100 L",
+    "price": 34000,
+    "bashing": 17,
+    "to_hit": -1,
+    "material": [ "steel", "plastic" ],
+    "symbol": "]",
+    "color": "dark_gray",
+    "diameter": 66,
+    "width": 14
+  },
+  
+    {
     "type": "WHEEL",
     "id": "rotor_vertibird",
     "category": "veh_parts",
